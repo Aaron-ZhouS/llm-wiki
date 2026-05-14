@@ -19,3 +19,7 @@
 - [[comparisons/rag-vs-llm-wiki]] — RAG 与 LLM Wiki 的详细对比分析
 
 ##测试同步 2026‑05‑13
+
+WSL 端测试
+
+测试同步 2026-05-13
