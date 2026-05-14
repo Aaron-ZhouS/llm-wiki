@@ -11,6 +11,14 @@
 - Directories: raw/{articles,papers,transcripts,assets}, entities/, concepts/, comparisons/, queries/
 - Vault path: ~/wiki
 
+## [2026-05-14] ingest | 视频号规则和算法研究
+
+- Sources: wechat-channels skill (skill file), Bing search, channels.weixin.qq.com
+- Pages created:
+  - entities/video-account-rules.md
+  - concepts/video-algorithm.md
+- Note: 官方完整运营规范需登录 channels.weixin.qq.com 才能查看，本页基于公开信息和实践经验整理
+
 ## [2026-05-13] ingest | Karpathy LLM Wiki gist
 - Source: raw/papers/karpathy-llm-wiki-2026.md (https://gist.github.com/karpathy/442a6bf555914893e9891c11519de94f)
 - Pages created:

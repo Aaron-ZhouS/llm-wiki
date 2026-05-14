@@ -9,10 +9,13 @@
 - [[andrej-karpathy]] — AI 研究者，LLM Wiki Pattern 提出者
 - [[rag]] — 检索增强生成，传统知识库方案
 - [[hermes-agent]] — Nous Research 开源 AI Agent 框架，官方支持 Obsidian + LLM Wiki
+- [[video-account-rules]] — 微信视频号官方运营规则（内容安全/审核红线/违规记录）
+- [[账号运营总结]] — 视频号运营综合经验
 
 ## Concepts
 
 - [[llm-wiki-pattern]] — LLM Wiki 模式：持久积累、可交叉引用的知识库方法论
+- [[video-algorithm]] — 视频号推荐算法机制（流量池/关键指标/权重）
 
 ## Comparisons
 
