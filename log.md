@@ -23,3 +23,4 @@
   - SCHEMA.md (tag taxonomy adapted to 3 domains)
   - index.md (all 7 pages registered)
   - log.md (this entry)
+测试双向同步
