@@ -1,0 +1,35 @@
+{
+  "filePath": "llm-wiki/concepts/obsidian-manual.md",
+  "annotations": [
+    {
+      "id": "1778993076558-nr0i5jng5",
+      "text": "在左侧文件列表空白处右键",
+      "contextBefore": "快捷键\n按 Ctrl + N — 新建笔记\n输入文件名，按 Enter\n开始编辑\n方法二：右键菜单\n",
+      "contextAfter": "\n选择 新建笔记\n输入文件名\n方法三：命令面板\n按 Ctrl + P\n输入\"新建\"\n选择 Markd",
+      "color": "yellow",
+      "note": "这是什么意识",
+      "createdAt": "2026-05-17T04:44:36.558Z",
+      "updatedAt": "2026-05-17T04:44:37.104Z",
+      "startLine": 139,
+      "endLine": 141,
+      "startOffset": 1,
+      "endOffset": 13,
+      "isValid": 1
+    },
+    {
+      "id": "1778993351075-e9oao13zq",
+      "text": "输入文件名",
+      "contextBefore": "\n输入文件名，按 Enter\n开始编辑\n方法二：右键菜单\n在左侧文件列表空白处右键\n选择 新建笔记\n",
+      "contextAfter": "\n方法三：命令面板\n按 Ctrl + P\n输入\"新建\"\n选择 Markdown 格式新建笔记\n4.2",
+      "color": "red",
+      "note": "",
+      "createdAt": "2026-05-17T04:49:11.075Z",
+      "updatedAt": "2026-05-17T04:49:51.618Z",
+      "startLine": 139,
+      "endLine": 141,
+      "startOffset": 22,
+      "endOffset": 27,
+      "isValid": 1
+    }
+  ]
+}
