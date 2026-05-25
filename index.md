@@ -11,12 +11,14 @@
 - [[hermes-agent]] — Nous Research 开源 AI Agent 框架，官方支持 Obsidian + LLM Wiki
 - [[video-account-rules]] — 微信视频号官方运营规则（内容安全/审核红线/违规记录）
 - [[账号运营总结]] — 视频号运营综合经验
+- [[video-topics]] — 短视频选题库（按主题/日期索引）
 
 ## Concepts
 
 - [[llm-wiki-pattern]] — LLM Wiki 模式：持久积累、可交叉引用的知识库方法论
 - [[video-algorithm]] — 视频号推荐算法机制（流量池/关键指标/权重）
 - [[obsidian-manual]] — Obsidian 完整使用手册（基础操作/进阶技巧/AI同步原理）
+- [[人生一定要规划好]] — 核心观点：不复盘不规划最终一场空（2026-05-25通勤教训）
 
 ## Comparisons
 
