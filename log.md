@@ -32,3 +32,15 @@
   - index.md (all 7 pages registered)
   - log.md (this entry)
 测试双向同步
+
+## [2026-05-25] ingest | 通勤教训复盘
+
+- Source: 用户口述（飞书）
+- Pages created:
+  - audit/new/daily-review-2026-05-25.md（复盘原文）
+  - Knowledge-Cards/人生一定要规划好.md（金句卡片）
+  - entities/video-topics.md（短视频选题：68公里通勤的教训）
+- Pages updated:
+  - index.md（新增 video-topics + 人生一定要规划好）
+- Topics extracted: 1（68公里通勤的教训）
+- Cards extracted: 1（金句：不复盘不规划最终一场空）
