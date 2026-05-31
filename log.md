@@ -1,5 +1,12 @@
 # Wiki Log
 
+## [2026-05-31] create | Dan Koe 视频学习库
+
+- Pages created:
+  - DanKoe/README.md
+  - DanKoe/_template-dankoe-video-note.md
+- Note: DanKoe 作为独立视频学习区，不接管 Hermes 的 concepts、Synthesis、audit 主流程。
+
 ## [2026-05-31] create | Codex-Hermes 协作边界
 
 - Pages created:
