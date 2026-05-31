@@ -19,6 +19,10 @@ contradictions: []
 
 ## NotebookLM 式总信息图
 
+![[assets/dankoe-10-videos-learning-map.svg]]
+
+## 旧版 Mermaid 草图
+
 ```mermaid
 flowchart TD
   A["Dan Koe 近期核心系统"] --> B["心智与身份"]
@@ -59,4 +63,3 @@ flowchart TD
 - 内容不是单篇爆款，而是一个从观察、思考、写作、发布、反馈到产品化的循环。
 - 一人公司要先建立“看问题的方式”，再把方法压缩成内容、服务或产品。
 - 每天学习视频时，最有价值的不是复述，而是提炼一个可以马上应用到账号、产品或生活系统的动作。
-

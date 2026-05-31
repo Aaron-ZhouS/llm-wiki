@@ -1,5 +1,15 @@
 # Wiki Log
 
+## [2026-05-31] update | Dan Koe 信息图视觉风格升级
+
+- Pages created:
+  - DanKoe/assets/dankoe-10-videos-learning-map.svg
+- Pages updated:
+  - DanKoe/2026-05-31 - Dan Koe 10 videos learning map.md
+  - DanKoe/_template-dankoe-video-note.md
+  - DanKoe/README.md
+- Note: 将信息图标准从简单 Mermaid 流程图升级为参考图风格的中文手绘视觉笔记 SVG；Mermaid 保留为草图。
+
 ## [2026-05-31] ingest | Dan Koe 10 个视频批量学习
 
 - Source: https://www.youtube.com/@DanKoeTalks

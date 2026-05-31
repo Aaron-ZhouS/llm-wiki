@@ -1,0 +1,157 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="1800" viewBox="0 0 1200 1800">
+  <defs>
+    <style>
+      .bg { fill: #fffaf0; }
+      .ink { fill: #111; font-family: "Microsoft YaHei", "Noto Sans CJK SC", Arial, sans-serif; }
+      .title { font-size: 52px; font-weight: 900; letter-spacing: 1px; }
+      .subtitle { font-size: 24px; font-weight: 700; }
+      .section { font-size: 28px; font-weight: 900; }
+      .body { font-size: 22px; font-weight: 700; }
+      .small { font-size: 18px; font-weight: 650; }
+      .tiny { font-size: 15px; font-weight: 600; }
+      .line { fill: none; stroke: #151515; stroke-width: 5; stroke-linecap: round; stroke-linejoin: round; }
+      .softline { fill: none; stroke: #151515; stroke-width: 3.2; stroke-linecap: round; stroke-linejoin: round; }
+      .orange { fill: #f6b36b; }
+      .orangeLine { fill: none; stroke: #ef8f3c; stroke-width: 9; stroke-linecap: round; stroke-linejoin: round; opacity: 0.9; }
+      .cream { fill: #ffe0b7; }
+      .card { fill: #fffdf7; stroke: #151515; stroke-width: 4; }
+      .note { fill: #fff7e7; stroke: #151515; stroke-width: 3; }
+      .dash { fill: none; stroke: #ef8f3c; stroke-width: 4; stroke-dasharray: 9 11; stroke-linecap: round; }
+    </style>
+    <marker id="arrow" markerWidth="12" markerHeight="12" refX="9" refY="6" orient="auto">
+      <path d="M2,2 L10,6 L2,10 Z" fill="#111"/>
+    </marker>
+    <marker id="arrowOrange" markerWidth="14" markerHeight="14" refX="10" refY="7" orient="auto">
+      <path d="M2,2 L12,7 L2,12 Z" fill="#ef8f3c"/>
+    </marker>
+  </defs>
+
+  <rect class="bg" width="1200" height="1800"/>
+
+  <text x="600" y="78" text-anchor="middle" class="ink title">Dan Koe 近期 10 个视频学习地图</text>
+  <text x="600" y="122" text-anchor="middle" class="ink subtitle">从“内容创作”到“一人公司”的认知技能树</text>
+
+  <path class="orangeLine" d="M166 1485 C260 1340, 322 1210, 410 1086 C462 1012, 505 920, 520 820"/>
+  <path class="orangeLine" d="M1036 1485 C938 1320, 860 1196, 778 1086 C710 994, 670 908, 650 820"/>
+  <path class="line" d="M520 1548 C520 1370, 520 1190, 546 1020 C563 914, 570 848, 570 782"/>
+  <path class="line" d="M650 1548 C652 1370, 650 1190, 625 1020 C610 914, 604 848, 604 782"/>
+  <path class="line" d="M366 1548 C504 1490, 696 1490, 834 1548"/>
+  <text x="600" y="1608" text-anchor="middle" class="ink section">创作者技能树</text>
+  <text x="600" y="1642" text-anchor="middle" class="ink small">写作澄清思考 · 内容建立信任 · AI 放大一人公司</text>
+
+  <path class="line" d="M160 1540 C230 1580, 310 1580, 370 1542"/>
+  <path class="line" d="M830 1542 C900 1580, 980 1580, 1040 1540"/>
+  <path class="softline" d="M552 1505 C570 1534, 626 1534, 648 1505"/>
+
+  <g transform="translate(430 600)">
+    <rect x="0" y="0" width="340" height="260" rx="18" class="card"/>
+    <rect x="55" y="-22" width="230" height="44" rx="20" class="cream"/>
+    <text x="170" y="10" text-anchor="middle" class="ink section">核心循环</text>
+    <path class="softline" marker-end="url(#arrow)" d="M170 50 C250 50, 270 128, 210 168"/>
+    <path class="softline" marker-end="url(#arrow)" d="M210 168 C150 222, 58 184, 78 108"/>
+    <path class="softline" marker-end="url(#arrow)" d="M78 108 C86 58, 120 48, 170 50"/>
+    <circle cx="170" cy="118" r="44" class="cream"/>
+    <text x="170" y="126" text-anchor="middle" class="ink body">理解</text>
+    <text x="170" y="68" text-anchor="middle" class="ink small">信息</text>
+    <text x="266" y="142" text-anchor="middle" class="ink small">选择</text>
+    <text x="94" y="204" text-anchor="middle" class="ink small">反馈</text>
+    <text x="170" y="246" text-anchor="middle" class="ink small">每天一轮：输入 → 思考 → 输出 → 修正</text>
+  </g>
+
+  <g transform="translate(95 258)">
+    <rect x="0" y="0" width="300" height="275" rx="20" class="note"/>
+    <rect x="26" y="-20" width="236" height="42" rx="18" class="cream"/>
+    <text x="144" y="10" text-anchor="middle" class="ink section">心智与身份</text>
+    <text x="35" y="68" class="ink body">1. 重塑自己</text>
+    <text x="35" y="106" class="ink small">强理由 + 反面身份</text>
+    <text x="35" y="145" class="ink body">2. 知道想要什么</text>
+    <text x="35" y="183" class="ink small">目标是机会过滤器</text>
+    <text x="35" y="222" class="ink body">3. 多久不重要</text>
+    <text x="35" y="258" class="ink small">方向正确，时间复利</text>
+  </g>
+
+  <g transform="translate(805 258)">
+    <rect x="0" y="0" width="300" height="275" rx="20" class="note"/>
+    <rect x="45" y="-20" width="210" height="42" rx="18" class="cream"/>
+    <text x="150" y="10" text-anchor="middle" class="ink section">写作与思考</text>
+    <text x="35" y="68" class="ink body">Essay 是思维训练</text>
+    <text x="35" y="108" class="ink small">观察 → 提问 → 论证</text>
+    <text x="35" y="150" class="ink body">公共思考建立信任</text>
+    <text x="35" y="190" class="ink small">长文沉淀，短内容分发</text>
+    <text x="35" y="232" class="ink body">意义经济</text>
+    <text x="35" y="260" class="ink small">谁能讲清楚，谁被相信</text>
+  </g>
+
+  <g transform="translate(90 930)">
+    <rect x="0" y="0" width="340" height="330" rx="22" class="note"/>
+    <rect x="42" y="-20" width="250" height="42" rx="18" class="cream"/>
+    <text x="168" y="10" text-anchor="middle" class="ink section">受众增长</text>
+    <path class="softline" d="M55 85 C115 35, 210 35, 282 85"/>
+    <path class="softline" marker-end="url(#arrowOrange)" d="M55 85 C110 158, 205 162, 282 94"/>
+    <circle cx="65" cy="88" r="26" class="cream"/>
+    <circle cx="170" cy="70" r="26" class="cream"/>
+    <circle cx="280" cy="88" r="26" class="cream"/>
+    <text x="65" y="95" text-anchor="middle" class="ink tiny">拆解</text>
+    <text x="170" y="77" text-anchor="middle" class="ink tiny">视角</text>
+    <text x="280" y="95" text-anchor="middle" class="ink tiny">连接</text>
+    <text x="38" y="178" class="ink body">0 粉丝的两个习惯：</text>
+    <text x="38" y="220" class="ink small">做有效内容，但不复制人格</text>
+    <text x="38" y="258" class="ink small">主动认识同频的人</text>
+    <text x="38" y="296" class="ink small">赞美 → 兴趣 → 有用 → 深聊</text>
+  </g>
+
+  <g transform="translate(770 930)">
+    <rect x="0" y="0" width="340" height="330" rx="22" class="note"/>
+    <rect x="42" y="-20" width="250" height="42" rx="18" class="cream"/>
+    <text x="168" y="10" text-anchor="middle" class="ink section">AI 一人公司</text>
+    <path class="softline" d="M70 245 L118 150 L166 205 L224 92 L290 245"/>
+    <path class="orangeLine" marker-end="url(#arrowOrange)" d="M86 235 C145 190, 190 150, 252 112"/>
+    <text x="46" y="70" class="ink body">AI 不是替代定位</text>
+    <text x="46" y="110" class="ink small">它放大清晰的商业系统</text>
+    <text x="46" y="155" class="ink small">个人品牌：吸引谁</text>
+    <text x="46" y="190" class="ink small">内容系统：建立信任</text>
+    <text x="46" y="225" class="ink small">产品设计：交付结果</text>
+    <text x="46" y="292" class="ink small">目标：从观点 → 内容 → 产品</text>
+  </g>
+
+  <g transform="translate(450 1015)">
+    <rect x="0" y="0" width="300" height="330" rx="22" class="note"/>
+    <rect x="34" y="-20" width="232" height="42" rx="18" class="cream"/>
+    <text x="150" y="10" text-anchor="middle" class="ink section">创造力恢复</text>
+    <path class="softline" d="M78 90 C120 45, 185 45, 226 90"/>
+    <path class="softline" d="M75 90 C72 138, 101 170, 150 170 C199 170, 228 138, 225 90"/>
+    <path class="dash" d="M86 212 C120 240, 184 240, 218 212"/>
+    <text x="150" y="105" text-anchor="middle" class="ink body">减少输入</text>
+    <text x="150" y="148" text-anchor="middle" class="ink small">消化已有材料</text>
+    <text x="150" y="226" text-anchor="middle" class="ink body">允许无聊</text>
+    <text x="150" y="270" text-anchor="middle" class="ink small">无聊是新奇感入口</text>
+    <text x="150" y="306" text-anchor="middle" class="ink small">最后用浮现的东西创作</text>
+  </g>
+
+  <g transform="translate(170 1390)">
+    <ellipse cx="105" cy="58" rx="112" ry="58" class="card"/>
+    <text x="105" y="50" text-anchor="middle" class="ink body">停止比较</text>
+    <text x="105" y="82" text-anchor="middle" class="ink small">竞争会变成噪音</text>
+  </g>
+  <g transform="translate(472 1390)">
+    <ellipse cx="130" cy="58" rx="135" ry="58" class="card"/>
+    <text x="130" y="50" text-anchor="middle" class="ink body">Just figure it out</text>
+    <text x="130" y="82" text-anchor="middle" class="ink small">拆问题，试错，复盘</text>
+  </g>
+  <g transform="translate(830 1390)">
+    <ellipse cx="120" cy="58" rx="128" ry="58" class="card"/>
+    <text x="120" y="50" text-anchor="middle" class="ink body">写作是根</text>
+    <text x="120" y="82" text-anchor="middle" class="ink small">输出倒逼理解</text>
+  </g>
+
+  <path class="line" marker-end="url(#arrow)" d="M330 540 C400 590, 445 640, 480 700"/>
+  <path class="line" marker-end="url(#arrow)" d="M870 540 C800 590, 755 640, 720 700"/>
+  <path class="orangeLine" marker-end="url(#arrowOrange)" d="M270 912 C330 800, 410 735, 510 710"/>
+  <path class="orangeLine" marker-end="url(#arrowOrange)" d="M930 912 C870 800, 790 735, 690 710"/>
+  <path class="softline" marker-end="url(#arrow)" d="M602 990 C600 940, 600 900, 602 860"/>
+
+  <g transform="translate(120 1668)">
+    <rect x="0" y="0" width="960" height="72" rx="26" class="cream"/>
+    <text x="480" y="45" text-anchor="middle" class="ink body">今日行动：每天拆 1 条内容 → 写 1 个观点 → 联系 1 个同频者 → 复盘 1 次反馈</text>
+  </g>
+</svg>

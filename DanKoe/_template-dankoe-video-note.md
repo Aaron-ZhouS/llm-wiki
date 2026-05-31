@@ -35,7 +35,15 @@ transcript_basis: "{{transcript_basis}}"
 2. {{key_point_2}}
 3. {{key_point_3}}
 
-## NotebookLM 式知识信息图
+## 视觉知识信息图
+
+> 推荐生成一张 `assets/YYYY-MM-DD-video-slug.svg`，采用手绘视觉笔记风格：中文大标题、暖橙高亮、黑色手绘线条、中心树/路径结构、图标化模块、少量关键词说明。图片生成后在这里嵌入：
+
+```markdown
+![[assets/YYYY-MM-DD-video-slug.svg]]
+```
+
+## Mermaid 草图
 
 ```mermaid
 flowchart TD
@@ -85,4 +93,3 @@ flowchart TD
 - 这个视频中最值得实践的一件事是什么？
 - 它和我当前的账号/产品/学习目标有什么关系？
 - 哪个观点需要二次验证？
-
