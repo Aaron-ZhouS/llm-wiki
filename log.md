@@ -1,5 +1,22 @@
 # Wiki Log
 
+## [2026-05-31] ingest | Dan Koe 10 个视频批量学习
+
+- Source: https://www.youtube.com/@DanKoeTalks
+- Pages created:
+  - DanKoe/2026-05-31 - Dan Koe 10 videos learning map.md
+  - DanKoe/2026-05-22 - After 100M views this is the system I wish I had.md
+  - DanKoe/2026-05-19 - Competition is irrelevant.md
+  - DanKoe/2026-05-14 - How To Grow An Audience If You Have 0 Followers.md
+  - DanKoe/2026-05-02 - How To Completely Reinvent Yourself In 6-12 Months.md
+  - DanKoe/2026-04-11 - It does not matter how long it takes.md
+  - DanKoe/2026-04-05 - Start Writing Essays Even If You Hate Writing.md
+  - DanKoe/2026-03-28 - If You Lost Your Creative Genius.md
+  - DanKoe/2026-03-25 - Just Figure It Out.md
+  - DanKoe/2026-03-15 - Build A One-Person Business Faster With AI.md
+  - DanKoe/2026-03-12 - You Need To Know What You Want.md
+- Note: YouTube 字幕抓取返回 disabled；本批次基于公开视频 RSS、标题、简介和章节整理，Shorts 仅基于标题，已在各页标注 confidence。
+
 ## [2026-05-31] create | Dan Koe 视频学习库
 
 - Pages created:
