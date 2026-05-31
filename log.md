@@ -8,6 +8,11 @@
 ## [2026-05-13] create | Wiki initialized
 - Domain: AI研究 / 一人公司 / 个人成长
 - Structure created with SCHEMA.md, index.md, log.md
+
+## [2026-05-31] ingest | 每日复盘入库
+- 复盘原文: audit/new/daily-review-2026-05-31.md
+- 短视频选题: entities/video-topics/daily-review-2026-05-31.md
+- 金句卡片: Knowledge-Cards/daily-review-2026-05-31-insight.md
 - Directories: raw/{articles,papers,transcripts,assets}, entities/, concepts/, comparisons/, queries/
 - Vault path: ~/wiki
 
