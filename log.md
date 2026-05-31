@@ -1,5 +1,13 @@
 # Wiki Log
 
+## [2026-05-31] ingest | Obsidian + AI 视频学习笔记
+
+- Source: https://www.bilibili.com/video/BV1KbdAB4EYA/
+- Companion article: https://mingnify.com/zh/blog/p/obsidian-ai-integration-guide/
+- Page created:
+  - Notes/obsidian-ai-integration-video.md
+- Note: 基于公开视频信息、视频简介和作者配套文章整理；未取得完整字幕逐字稿。
+
 > 所有 wiki 操作的时序记录。只追加，不编辑。
 > 格式：`## [YYYY-MM-DD] action | subject`
 > Actions: ingest, update, query, lint, create, archive, delete
