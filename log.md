@@ -1,5 +1,14 @@
 # Wiki Log
 
+## [2026-05-31] create | Codex-Hermes 协作边界
+
+- Pages created:
+  - concepts/codex-hermes-collaboration.md
+  - Notes/video-note-template.md
+- Pages updated:
+  - index.md
+- Note: 采用低侵入配置；不安装插件、不创建后台任务、不修改 Hermes 同步与 audit 主流程。
+
 ## [2026-05-31] ingest | Obsidian + AI 视频学习笔记
 
 - Source: https://www.bilibili.com/video/BV1KbdAB4EYA/

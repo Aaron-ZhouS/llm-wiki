@@ -15,6 +15,7 @@
 
 ## Concepts
 
+- [[codex-hermes-collaboration]] — Codex 与 Hermes 在 Obsidian 知识库中的协作边界，避免双 Agent 自动化冲突
 - [[llm-wiki-pattern]] — LLM Wiki 模式：持久积累、可交叉引用的知识库方法论
 - [[video-algorithm]] — 视频号推荐算法机制（流量池/关键指标/权重）
 - [[obsidian-manual]] — Obsidian 完整使用手册（基础操作/进阶技巧/AI同步原理）
