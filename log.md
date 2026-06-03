@@ -100,3 +100,8 @@
   - index.md（新增 video-topics + 人生一定要规划好）
 - Topics extracted: 1（68公里通勤的教训）
 - Cards extracted: 1（金句：不复盘不规划最终一场空）
+
+## [2026-06-01] ingest | 每日复盘入库
+- 复盘原文: audit/new/daily-review-2026-06-01.md
+- 短视频选题: entities/video-topics/daily-review-2026-06-01.md
+- 金句卡片: Knowledge-Cards/daily-review-2026-06-01-insight.md
