@@ -1,5 +1,14 @@
 # Wiki Log
 
+## [2026-06-09] ingest | Dan Koe May 23 writing app video
+- Sources:
+  - https://letters.thedankoe.com/p/i-built-the-writing-app-ive-always
+  - https://letters.thedankoe.com/archive
+  - https://eden.so
+- Pages created:
+  - DanKoe/2026-05-23 - I built the writing app I've always wanted.md
+- Note: Chose the newest unprocessed Dan Koe video verifiable from public indexed sources. The official video post was accessible, but the transcript body was not, so the note is explicitly marked `confidence: low` and based on metadata plus product framing.
+
 ## [2026-05-31] update | Dan Koe 信息图视觉风格升级
 
 - Pages created:
