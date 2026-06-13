@@ -114,3 +114,8 @@
 - 复盘原文: audit/new/daily-review-2026-06-01.md
 - 短视频选题: entities/video-topics/daily-review-2026-06-01.md
 - 金句卡片: Knowledge-Cards/daily-review-2026-06-01-insight.md
+## [2026-06-13] DanKoe | processed "Growing on social media is easy, actually"
+
+- Created: `DanKoe/2026-05-07 - Growing on social media is easy, actually.md`
+- Sources: official future/proof post, archive metadata, and channel page
+- Confidence: medium; direct YouTube watch URL/transcript not publicly recoverable during run
