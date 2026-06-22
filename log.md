@@ -1,5 +1,11 @@
 # Wiki Log
 
+## [2026-06-21] ingest | Dan Koe multiple interests one-person business video
+- Source: https://www.youtube.com/watch?v=FBHhmqBs894
+- Page created:
+  - DanKoe/2026-06-13 - If You Have Multiple Interests, Start A One-Person Business.md
+- Note: Selected the newest unprocessed official channel video. No public caption track was available; the note is marked `confidence: low` and grounded in first-party title, description, duration, and chapters.
+
 ## [2026-06-09] ingest | Dan Koe May 23 writing app video
 - Sources:
   - https://letters.thedankoe.com/p/i-built-the-writing-app-ive-always
@@ -119,3 +125,15 @@
 - Created: `DanKoe/2026-05-07 - Growing on social media is easy, actually.md`
 - Sources: official future/proof post, archive metadata, and channel page
 - Confidence: medium; direct YouTube watch URL/transcript not publicly recoverable during run
+
+## [2026-06-21] DanKoe | processed "If You Have Multiple Interests, Start A One-Person Business"
+
+- Created: `DanKoe/2026-06-13 - If You Have Multiple Interests, Start A One-Person Business.md`
+- Source: official YouTube RSS metadata, description, and chapter list for `FBHhmqBs894`
+- Confidence: low; no public transcript was recoverable during this run
+
+## [2026-06-21] DanKoe | processed "How To Think Like A Strategic Genius (5-Dimensional Thinking)"
+
+- Created: `DanKoe/2026-02-22 - How To Think Like A Strategic Genius.md`
+- Source: official YouTube RSS metadata, description, and chapter list for `TY8IVSQnwlk`
+- Confidence: low; `yt-dlp` is unavailable and no public transcript was recovered during this run
