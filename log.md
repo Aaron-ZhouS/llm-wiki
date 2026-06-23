@@ -137,3 +137,14 @@
 - Created: `DanKoe/2026-02-22 - How To Think Like A Strategic Genius.md`
 - Source: official YouTube RSS metadata, description, and chapter list for `TY8IVSQnwlk`
 - Confidence: low; `yt-dlp` is unavailable and no public transcript was recovered during this run
+
+## [2026-06-23] created | 决策百科（Hermes 视频 ❹ 改造版）
+- Source: B站视频《6个改变生活的 Hermes Agent 应用案例》BV1xNEM62EzH + 用户对话改造
+- Pages created:
+  - decisions/README — 决策百科使用指南
+  - decisions/_template — 6 字段决策模板
+  - decisions/2026-05-19-选一人公司赛道
+  - decisions/2026-05-20-选视频号周盛说作主IP
+  - decisions/2026-05-21-选Hermes作为唯一AI主力
+  - decisions/2026-05-22-产品方向-帮个人做不确定决策
+- Note: 4 个示例决策 confidence: medium（基于 memory 推测，非用户亲述），需用户后续校正。半年后回访节点：2026-11-19/20/21/22。
