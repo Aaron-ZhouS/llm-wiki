@@ -12,6 +12,10 @@
 - [[productivity/video-content-pipeline]] — 视频字幕→决策百科/cron/备份的 6 步落地
 - [[mcp/cookie-ingest]] — Cookie-Editor JSON → yt-dlp Netscape 自动转
 
+## 今日更新（按日期）
+
+- [[今日更新说明书-2026-06-23]] — **2026-06-23 大升级**：6 个新功能 + 3 份产出 + 5 铁律完整使用手册（18.7KB）
+
 ## Entities
 
 - [[andrej-karpathy]] — AI 研究者，LLM Wiki Pattern 提出者
