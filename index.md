@@ -4,6 +4,14 @@
 > 先读此文件找相关页面。
 > Last updated: 2026-06-23 | Total pages: 12
 
+## Skills（运维 / 流程）
+
+- [[productivity/hermes-ops-discipline]] — Hermes 运维 5 条铁律（凭据隔离/周自检/记忆新鲜度/skill沉淀/SOUL 纪律）
+- [[productivity/morning-triage]] — 每日 6:00 飞书推"今日 3 件事"（与 evening-review 配对）
+- [[productivity/evening-review]] — 每日 21:00 复盘入口
+- [[productivity/video-content-pipeline]] — 视频字幕→决策百科/cron/备份的 6 步落地
+- [[mcp/cookie-ingest]] — Cookie-Editor JSON → yt-dlp Netscape 自动转
+
 ## Entities
 
 - [[andrej-karpathy]] — AI 研究者，LLM Wiki Pattern 提出者
