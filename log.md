@@ -1,5 +1,11 @@
 # Wiki Log
 
+## [2026-06-28] ingest | 每日复盘：胡子哥《普通人怎么改变命运》— 复用思维
+- 复盘原文: audit/new/daily-review-2026-06-28.md
+- 短视频选题: entities/video-topics/daily-review-2026-06-28.md
+- 金句卡片: Knowledge-Cards/daily-review-2026-06-28-insight.md
+- 核心洞见: 资产思维四问 + 每周最忙5件事审计法
+
 ## [2026-06-21] ingest | Dan Koe multiple interests one-person business video
 - Source: https://www.youtube.com/watch?v=FBHhmqBs894
 - Page created:
