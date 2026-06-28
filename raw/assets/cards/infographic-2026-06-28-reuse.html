@@ -1,0 +1,529 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>普通人改变命运：复用 — 信息图</title>
+<link href="https://fonts.googleapis.com/css2?family=Noto+Sans+SC:wght@400;500;700&family=Ma+Shan+Zheng&display=swap" rel="stylesheet">
+<style>
+/* ============================================================
+   NotebookLM 手绘风信息图 — 竖版 9:16
+   配色：暖奶油纸纹 + 马卡龙色块 + 手写字体
+   ============================================================ */
+* { box-sizing: border-box; margin: 0; padding: 0; }
+body {
+  font-family: 'Noto Sans SC', sans-serif;
+  background: #e8e0d5;
+  display: flex;
+  justify-content: center;
+  padding: 16px;
+}
+.card {
+  width: 1080px;
+  min-height: 1920px;
+  background: #F5F0E8;
+  position: relative;
+  overflow: hidden;
+  background-image:
+    url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='200' height='200'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.75' numOctaves='4' stitchTiles='stitch'/%3E%3CfeColorMatrix type='saturate' values='0'/%3E%3C/filter%3E%3Crect width='200' height='200' filter='url(%23n)' opacity='0.03'/%3E%3C/svg%3E"),
+    linear-gradient(180deg, #F5F0E8 0%, #EDE5D8 100%);
+}
+.card-top {
+  background: #3c3a36;
+  min-height: 380px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 60px 80px 50px;
+  text-align: center;
+  position: relative;
+}
+.card-top::before {
+  content: '';
+  position: absolute;
+  top: 0; left: 0; right: 0;
+  height: 8px;
+  background: repeating-linear-gradient(
+    90deg,
+    #c9a96a 0px, #c9a96a 20px,
+    #d4b87a 20px, #d4b87a 40px,
+    #e8c88a 40px, #e8c88a 60px
+  );
+}
+.tag {
+  display: inline-block;
+  background: rgba(201,169,106,0.15);
+  color: #d4b87a;
+  font-size: 20px;
+  font-weight: 500;
+  padding: 8px 28px;
+  border-radius: 40px;
+  border: 1.5px solid rgba(201,169,106,0.35);
+  margin-bottom: 36px;
+  letter-spacing: 3px;
+}
+.main-title {
+  font-family: 'Ma Shan Zheng', cursive;
+  font-size: 86px;
+  color: #ffffff;
+  line-height: 1.25;
+  text-align: center;
+}
+.main-title .highlight { color: #d4b87a; }
+.main-title .subtitle {
+  display: block;
+  font-family: 'Noto Sans SC', sans-serif;
+  font-size: 26px;
+  font-weight: 400;
+  color: #a09888;
+  margin-top: 16px;
+  letter-spacing: 2px;
+}
+.split-deco {
+  height: 48px;
+  background: #F5F0E8;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.split-deco::before {
+  content: '';
+  position: absolute;
+  left: 60px; right: 60px;
+  height: 2px;
+  background: repeating-linear-gradient(
+    90deg,
+    #c9a96a 0px, #c9a96a 8px,
+    transparent 8px, transparent 16px
+  );
+}
+.split-deco::after {
+  content: '✦';
+  font-size: 28px;
+  color: #c9a96a;
+  position: relative;
+  z-index: 1;
+  background: #F5F0E8;
+  padding: 0 16px;
+}
+.meta-bar {
+  background: #3c3a36;
+  padding: 20px 80px;
+  display: flex;
+  gap: 32px;
+  flex-wrap: wrap;
+  align-items: center;
+}
+.meta-item {
+  font-size: 20px;
+  color: #8a7f75;
+}
+.meta-item span { color: #d4b87a; font-weight: 500; }
+.card-body {
+  background: #F5F0E8;
+  padding: 48px 72px 72px;
+}
+.section-title {
+  font-size: 26px;
+  font-weight: 700;
+  color: #3c3a36;
+  margin-bottom: 24px;
+  padding-bottom: 12px;
+  border-bottom: 2.5px dashed #d4c8b8;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.section-title::before {
+  content: '';
+  width: 5px; height: 24px;
+  background: #c9a96a;
+  border-radius: 3px;
+}
+.essence-box {
+  background: #ffffff;
+  border-radius: 20px;
+  padding: 32px 40px;
+  margin-bottom: 32px;
+  box-shadow: 0 2px 10px rgba(60,58,54,0.07);
+  border-left: 5px solid #c9a96a;
+}
+.essence-box .label {
+  font-size: 18px;
+  color: #c9a96a;
+  font-weight: 700;
+  margin-bottom: 12px;
+  letter-spacing: 2px;
+}
+.essence-box p {
+  font-size: 28px;
+  color: #3c3a36;
+  line-height: 1.8;
+  font-weight: 500;
+}
+.mechanism-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 18px;
+  margin-bottom: 32px;
+}
+.mech-card {
+  background: #ffffff;
+  border-radius: 18px;
+  padding: 26px 30px;
+  box-shadow: 0 2px 8px rgba(60,58,54,0.06);
+  border-top: 4px solid #e0d8cf;
+}
+.mech-card.fallacy   { border-top-color: #E8655A; }
+.mech-card.fulcrum   { border-top-color: #B5E5CF; }
+.mech-card.insight   { border-top-color: #A8D8EA; }
+.mech-card.action    { border-top-color: #FFD5C2; }
+.mech-card .mech-label {
+  font-size: 16px;
+  font-weight: 700;
+  margin-bottom: 10px;
+  letter-spacing: 1.5px;
+}
+.mech-card.fallacy  .mech-label { color: #E8655A; }
+.mech-card.fulcrum .mech-label { color: #4a9e6a; }
+.mech-card.insight .mech-label { color: #4a80a8; }
+.mech-card.action  .mech-label { color: #c08060; }
+.mech-card p {
+  font-size: 22px;
+  color: #4a4540;
+  line-height: 1.7;
+}
+.causal-chain {
+  background: #ffffff;
+  border-radius: 18px;
+  padding: 28px 36px;
+  margin-bottom: 32px;
+  box-shadow: 0 2px 8px rgba(60,58,54,0.06);
+  border: 1.5px dashed #e0d8cf;
+}
+.causal-chain p {
+  font-size: 24px;
+  color: #4a4540;
+  line-height: 1.9;
+}
+.causal-chain .arrow {
+  color: #c9a96a;
+  font-weight: 700;
+  margin: 0 6px;
+}
+.causal-chain .highlight { color: #c9a96a; font-weight: 700; }
+.boundary-box {
+  background: rgba(232,101,90,0.07);
+  border-radius: 18px;
+  padding: 26px 34px;
+  margin-bottom: 32px;
+  border: 1px solid rgba(232,101,90,0.18);
+}
+.boundary-box .label {
+  font-size: 16px;
+  font-weight: 700;
+  color: #E8655A;
+  margin-bottom: 10px;
+  letter-spacing: 1.5px;
+}
+.boundary-box p {
+  font-size: 22px;
+  color: #6a5555;
+  line-height: 1.75;
+  margin-bottom: 8px;
+}
+.boundary-box p:last-child { margin-bottom: 0; }
+.boundary-box strong { color: #E8655A; }
+.exec-box {
+  background: rgba(201,169,106,0.10);
+  border-radius: 20px;
+  padding: 30px 40px;
+  margin-bottom: 32px;
+  border: 1.5px solid rgba(201,169,106,0.25);
+}
+.exec-box .exec-title {
+  font-size: 24px;
+  font-weight: 700;
+  color: #3c3a36;
+  margin-bottom: 22px;
+}
+.exec-item {
+  display: flex;
+  gap: 14px;
+  margin-bottom: 16px;
+  font-size: 24px;
+  align-items: flex-start;
+}
+.exec-item:last-child { margin-bottom: 0; }
+.exec-num {
+  width: 38px; height: 38px;
+  background: #c9a96a;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 20px;
+  font-weight: 700;
+  color: #fff;
+  flex-shrink: 0;
+  margin-top: 2px;
+}
+.exec-text {
+  color: #4a4540;
+  line-height: 1.65;
+}
+.exec-text .step-title {
+  font-weight: 700;
+  color: #3c3a36;
+}
+.content-box {
+  background: #ffffff;
+  border-radius: 18px;
+  padding: 32px 40px;
+  margin-bottom: 28px;
+  box-shadow: 0 2px 10px rgba(60,58,54,0.07);
+}
+.content-box p {
+  font-size: 26px;
+  color: #4a4540;
+  line-height: 1.9;
+  margin-bottom: 16px;
+}
+.content-box p:last-child { margin-bottom: 0; }
+.content-box .accent { color: #c9a96a; font-weight: 700; }
+.content-box .highlight { color: #E8655A; font-weight: 700; }
+.bottom-quote {
+  background: #3c3a36;
+  border-radius: 20px;
+  padding: 48px 48px;
+  text-align: center;
+  margin-top: 32px;
+  position: relative;
+  overflow: hidden;
+}
+.bottom-quote::before {
+  content: '';
+  position: absolute;
+  top: 12px; left: 12px; right: 12px; bottom: 12px;
+  border: 2px dashed rgba(201,169,106,0.3);
+  border-radius: 14px;
+  pointer-events: none;
+}
+.bottom-quote p {
+  font-family: 'Ma Shan Zheng', cursive;
+  font-size: 42px;
+  color: #f0ebe3;
+  line-height: 1.6;
+}
+.bottom-quote .gold { color: #d4b87a; }
+.card-footer {
+  background: #F5F0E8;
+  padding: 0 72px 64px;
+  display: flex;
+  gap: 12px;
+  flex-wrap: wrap;
+}
+.tag-item {
+  font-size: 18px;
+  color: #8a7f75;
+  background: #ebe5dd;
+  padding: 6px 18px;
+  border-radius: 20px;
+  letter-spacing: 1px;
+}
+.compare-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 18px;
+  margin-bottom: 32px;
+}
+.compare-card {
+  background: #ffffff;
+  border-radius: 18px;
+  padding: 26px 28px;
+  box-shadow: 0 2px 8px rgba(60,58,54,0.06);
+}
+.compare-card.asset {
+  border-top: 6px solid #c9a96a;
+  background: linear-gradient(180deg, rgba(201,169,106,0.10) 0%, #ffffff 30%);
+}
+.compare-card.cost {
+  border-top: 6px solid #8a7f75;
+  background: linear-gradient(180deg, rgba(138,127,117,0.08) 0%, #ffffff 30%);
+}
+.compare-card .badge {
+  display: inline-block;
+  padding: 4px 14px;
+  border-radius: 20px;
+  font-size: 14px;
+  font-weight: 700;
+  letter-spacing: 2px;
+  margin-bottom: 12px;
+}
+.compare-card.asset .badge {
+  background: #c9a96a;
+  color: #fff;
+}
+.compare-card.cost .badge {
+  background: #8a7f75;
+  color: #fff;
+}
+.compare-card .name {
+  font-size: 24px;
+  font-weight: 700;
+  color: #3c3a36;
+  margin-bottom: 14px;
+}
+.compare-card ul {
+  list-style: none;
+  padding: 0;
+}
+.compare-card li {
+  font-size: 20px;
+  color: #4a4540;
+  line-height: 1.7;
+  padding: 4px 0;
+  padding-left: 18px;
+  position: relative;
+}
+.compare-card.asset li::before {
+  content: '✓';
+  position: absolute;
+  left: 0;
+  color: #c9a96a;
+  font-weight: 700;
+}
+.compare-card.cost li::before {
+  content: '✗';
+  position: absolute;
+  left: 0;
+  color: #8a7f75;
+  font-weight: 700;
+}
+.compare-card .action-hint {
+  margin-top: 14px;
+  padding-top: 12px;
+  border-top: 1.5px dashed #e0d8cf;
+  font-size: 18px;
+  font-style: italic;
+}
+.compare-card.asset .action-hint { color: #c9a96a; }
+.compare-card.cost .action-hint { color: #8a7f75; }
+</style>
+</head>
+<body>
+<div class="card">
+  <!-- 顶部标题 -->
+  <div class="card-top">
+    <div class="tag">⚡ 资产思维 · 一人公司</div>
+    <div class="main-title">
+      普通人改变命运<br>
+      <span class="highlight">只有一个答案</span>
+      <span class="subtitle">REUSE · 胡子哥复盘</span>
+    </div>
+  </div>
+
+  <div class="split-deco"></div>
+
+  <!-- 元信息条 -->
+  <div class="meta-bar">
+    <div class="meta-item">来源 <span>胡子哥《一个普通人怎么改变命运》</span></div>
+    <div class="meta-item">学科 <span>个人成长 · 资产思维</span></div>
+    <div class="meta-item">变量 <span>做事方式 → 资产积累</span></div>
+    <div class="meta-item">关系 <span>阈值型</span></div>
+  </div>
+
+  <!-- 内容区 -->
+  <div class="card-body">
+
+    <div class="essence-box">
+      <div class="label">◆ 核心界定</div>
+      <p>努力本质不是"忙"，而是做完以后——<span style="color:#c9a96a;font-weight:700;">还能不能再用一次</span>。</p>
+    </div>
+
+    <div class="section-title">⚙️ 系统运转机制</div>
+    <div class="mechanism-grid">
+      <div class="mech-card fallacy">
+        <div class="mech-label">✕ 默认假设谬误</div>
+        <p>普通人以为"忙 = 努力 = 会富"。其实银行看你很穷——因为干完就着，没沉淀成资产。</p>
+      </div>
+      <div class="mech-card fulcrum">
+        <div class="mech-label">⚡ 关键杠杆点</div>
+        <p>胡子哥的杠杆：所有事都做可复用的。一次投入，多次产出，时间替你赚钱。</p>
+      </div>
+    </div>
+
+    <div class="causal-chain">
+      <p>干完就着<span class="arrow">→</span>没资产<span class="arrow">→</span>时间过去你依然穷<br>干完能复用<span class="arrow">→</span>一次投入多次产出<span class="arrow">→</span><span class="highlight">资产滚雪球</span></p>
+    </div>
+
+    <!-- 资产型 vs 消耗型 对比 -->
+    <div class="section-title">⚖️ 资产型 vs 消耗型</div>
+    <div class="compare-grid">
+      <div class="compare-card asset">
+        <span class="badge">ASSET 资产型</span>
+        <div class="name">一次性投入 · 持续产出</div>
+        <ul>
+          <li>智能体自动回复评论区</li>
+          <li>模板化文案 / SOP / 知识卡片</li>
+          <li>投资思维能力复用</li>
+          <li>短视频脚本沉淀为方法论</li>
+        </ul>
+        <div class="action-hint">→ 加大投入 · 时间复利</div>
+      </div>
+      <div class="compare-card cost">
+        <span class="badge">COST 消耗型</span>
+        <div class="name">干完就着 · 下次从零</div>
+        <ul>
+          <li>早期胡子哥手回每条私信</li>
+          <li>单次咨询 / 一次性方案</li>
+          <li>无 SOP 的重复劳动</li>
+          <li>"努力感"很强但没沉淀</li>
+        </ul>
+        <div class="action-hint">→ 砍掉 · 外包 · 找复用点</div>
+      </div>
+    </div>
+
+    <div class="boundary-box">
+      <div class="label">🚧 边界条件</div>
+      <p><strong>成立前提：</strong>事情有可标准化成分，能抽象成流程或模板。</p>
+      <p><strong>断裂点：</strong>纯一次性事件、完全无规律的私人定制——这些事无法抽象成资产。</p>
+    </div>
+
+    <div class="exec-box">
+      <div class="exec-title">◈ 最小可执行动作 · 资产四问（每周日晚上）</div>
+      <div class="exec-item">
+        <span class="exec-num">①</span>
+        <span class="exec-text"><span class="step-title">列清单</span> — 列出本周最忙的5件事</span>
+      </div>
+      <div class="exec-item">
+        <span class="exec-num">②</span>
+        <span class="exec-text"><span class="step-title">判属性</span> — 逐个判断：可复用（资产）还是干完就着（消耗）</span>
+      </div>
+      <div class="exec-item">
+        <span class="exec-num">③</span>
+        <span class="exec-text"><span class="step-title">调分配</span> — 资产型加大投入；消耗型砍掉/外包/抽象成模板</span>
+      </div>
+      <div class="exec-item">
+        <span class="exec-num">④</span>
+        <span class="exec-text"><span class="step-title">月复审</span> — 每月/季度复盘：哪些可以不/少做？哪些加大投入？</span>
+      </div>
+    </div>
+
+    <div class="bottom-quote">
+      <p>胡子哥所有的事情<br>都是去做<span class="gold">可以复用</span>的事情</p>
+    </div>
+  </div>
+
+  <div class="card-footer">
+    <span class="tag-item">#一人公司</span>
+    <span class="tag-item">#资产思维</span>
+    <span class="tag-item">#AI副业</span>
+    <span class="tag-item">#认知升级</span>
+    <span class="tag-item">#胡子哥</span>
+  </div>
+</div>
+</body>
+</html>
