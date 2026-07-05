@@ -154,3 +154,9 @@
   - decisions/2026-05-21-选Hermes作为唯一AI主力
   - decisions/2026-05-22-产品方向-帮个人做不确定决策
 - Note: 4 个示例决策 confidence: medium（基于 memory 推测，非用户亲述），需用户后续校正。半年后回访节点：2026-11-19/20/21/22。
+
+## [2026-07-05] DanKoe | processed "How To Become So Valuable AI Can Never Replace You"
+
+- Created: `DanKoe/2026-06-28 - How To Become So Valuable AI Can Never Replace You.md`
+- Source: official YouTube RSS metadata, description, and chapter list for `K2QvCV1PB1w`
+- Confidence: low; `yt-dlp` is unavailable and no public transcript was recovered during this run
