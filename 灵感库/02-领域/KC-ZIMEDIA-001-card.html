@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=1080">
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link href="https://fonts.googleapis.com/css2?family=Ma+Shan+Zheng&family=Noto+Sans+SC:wght@400;500;700&display=swap" rel="stylesheet">
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          colors: {
+            outer:   '#e8e0d5',
+            card:    '#f5f0eb',
+            header:  '#3c3a37',
+            accent:  '#b8a088',
+            divider: '#e0d5c8',
+            'cog-bg':'#ede6dc',
+            'exec-bg':'rgba(184,160,136,0.12)',
+            body:    '#7a7062',
+            muted:   '#8a8072',
+            footer:  '#b0a898',
+          }
+        }
+      }
+    }
+  </script>
+  <style>
+    body { background: #e8e0d5; font-family: 'Noto Sans SC', sans-serif; }
+    .msz { font-family: 'Ma Shan Zheng', cursive; }
+  </style>
+</head>
+<body class="flex items-center justify-center min-h-screen p-8">
+
+  <!-- 卡片外壳 -->
+  <div class="w-[1080px] bg-card rounded-xl overflow-hidden shadow-2xl"
+       style="background:#f5f0eb; min-height:1400px;">
+
+    <!-- HEADER -->
+    <div class="h-32 px-10 flex flex-col justify-center border-b-2"
+         style="background:#3c3a37; border-color:#b8a088;">
+      <div class="flex items-center gap-4 mb-2">
+        <span class="text-sm tracking-widest uppercase" style="color:#8a8072;">[SELF-MEDIA]</span>
+        <span class="text-sm" style="color:#8a8072;">NO.001</span>
+      </div>
+      <h1 class="text-4xl font-black leading-tight" style="color:#f0ebe4; font-family:'Ma Shan Zheng',cursive;">
+        评论区就是选题库
+      </h1>
+      <p class="text-lg tracking-widest mt-1" style="color:#a09888;">TOPIC-IS-USERS-QUESTION</p>
+    </div>
+
+    <!-- BODY -->
+    <div class="px-10 py-8 space-y-6" style="background:#f5f0eb;">
+
+      <!-- 认知组 -->
+      <div class="space-y-4">
+        <!-- 摘要区 -->
+        <div class="flex gap-4">
+          <div class="w-1.5 rounded-full flex-shrink-0" style="background:#b8a088;"></div>
+          <p class="text-xl font-bold leading-relaxed flex-1" style="color:#3c3a37;">
+            选题不是找"用户感兴趣的话题"，是去"用户问题的密集区"开店。评论区就是那个密集区。
+          </p>
+        </div>
+        <!-- 机制区 -->
+        <div class="px-5 py-4 rounded-lg text-base leading-relaxed" style="background:#ede6dc; color:#7a7062;">
+          推荐流量是公交（别人开的路，半个月就没了）。搜索流量是自建房（你选位置，资产一直有）。评论区的用户在主动告诉你他们的问题，你只要拍他们的问题，他们就会搜过来。
+        </div>
+      </div>
+
+      <!-- 执行组 -->
+      <div class="rounded-xl p-6 space-y-4" style="background:rgba(184,160,136,0.12);">
+        <div class="text-lg font-bold mb-3" style="color:#3c3a37;">
+          ◈ 4 步挖评论区
+        </div>
+        <div class="space-y-3">
+          <div class="flex items-start gap-3">
+            <span class="text-xl font-black flex-shrink-0 w-8" style="color:#b8a088;">①</span>
+            <div>
+              <span class="font-bold" style="color:#3c3a37;">翻 100 条评论</span>
+              <span class="ml-2" style="color:#7a7062;">— 看你最近的所有视频/文章的评论区</span>
+            </div>
+          </div>
+          <div class="flex items-start gap-3">
+            <span class="text-xl font-black flex-shrink-0 w-8" style="color:#b8a088;">②</span>
+            <div>
+              <span class="font-bold" style="color:#3c3a37;">按问题归类</span>
+              <span class="ml-2" style="color:#7a7062;">— 这个用户问的是什么，那个又是什么</span>
+            </div>
+          </div>
+          <div class="flex items-start gap-3">
+            <span class="text-xl font-black flex-shrink-0 w-8" style="color:#b8a088;">③</span>
+            <div>
+              <span class="font-bold" style="color:#3c3a37;">数频次</span>
+              <span class="ml-2" style="color:#7a7062;">— 前 5 个问题 = 下周 5 条视频的选题</span>
+            </div>
+          </div>
+          <div class="flex items-start gap-3">
+            <span class="text-xl font-black flex-shrink-0 w-8" style="color:#b8a088;">④</span>
+            <div>
+              <span class="font-bold" style="color:#3c3a37;">四段式拍</span>
+              <span class="ml-2" style="color:#7a7062;">— 问题 → 方案 → 原因 → 总结</span>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- 金句 -->
+      <blockquote class="text-center italic text-xl leading-relaxed py-4"
+                  style="color:#8a8072;">
+        "每一条视频都是试用装。你能解决问题，钱一定是挣了的。"
+      </blockquote>
+
+    </div>
+
+    <!-- FOOTER -->
+    <div class="px-10 py-4 text-center text-sm border-t"
+         style="color:#b0a898; border-color:#e0d5c8;">
+      BY 周盛说 · KC-ZIMEDIA-001
+    </div>
+
+  </div>
+
+</body>
+</html>
