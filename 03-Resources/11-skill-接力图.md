@@ -83,3 +83,15 @@ mvp    book-extract    deep-insight    sankuaifa
 | `social-media/wechat-channels_20260611` | （已删）| 早前合并 |
 
 **铁律：** 收到"已安装过"的 skill 时，先 `ls ~/.hermes/skills/.archive/ | grep 关键词` + `find ~/.hermes -name "关键词"` 双向查实，再决定装/复活/合并/跳过。
+
+---
+
+## 知识库导航（vault 配套文档）
+
+安装 / 路径 / 软链等基础设施问题，参考以下 3 份说明书：
+
+| 文档 | 路径 | 给谁看 |
+|---|---|---|
+| 我的知识库怎么用 | `Synthesis/我的知识库怎么用.md` | 大盛（30 秒回忆日常用法）|
+| 知识库 Agent 协议 | `Synthesis/知识库-Agent-协议.md` | 任何接手的 AI agent（协议 + 触发词 + 故障命令）|
+| 知识库搭建说明书 | `Synthesis/知识库搭建说明书.md` | 混合参考（哲学 + 设计 + 演进日志）|
