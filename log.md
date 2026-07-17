@@ -155,6 +155,13 @@
   - decisions/2026-05-22-产品方向-帮个人做不确定决策
 - Note: 4 个示例决策 confidence: medium（基于 memory 推测，非用户亲述），需用户后续校正。半年后回访节点：2026-11-19/20/21/22。
 
+## [2026-07-17] daily-review | evening-review 入库：做减法 / 多平台陷阱
+
+- 复盘原文: `audit/new/daily-review-2026-07-17.md`
+- 短视频选题: `entities/video-topics/daily-review-2026-07-17.md`（1 条）
+- 金句卡片: `Knowledge-Cards/daily-review-2026-07-17-insight.md`（5 条金句 + 3 个概念 + 三问筛选法）
+- 选题标题候选：① 做内容越做越焦虑？多平台陷阱 ② 经济学家研究农民：你焦虑不是因为不努力 ③ 多开一个平台不是多一条路是少一条路
+
 ## [2026-07-05] DanKoe | processed "How To Become So Valuable AI Can Never Replace You"
 
 - Created: `DanKoe/2026-06-28 - How To Become So Valuable AI Can Never Replace You.md`
