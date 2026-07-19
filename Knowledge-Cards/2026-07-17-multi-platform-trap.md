@@ -62,3 +62,7 @@ sources: [audit/new/daily-review-2026-07-17.md, Knowledge-Cards/daily-review-202
 - 桌面：`C:\Users\Aaron\Desktop\2026-07-17-multi-platform-trap-{知识卡|信息图}.png`
 - WSL：`~/wiki/Knowledge-Cards/`
 - Obsidian D 盘：`/mnt/d/Obsidian/llm-wiki/raw/assets/cards/` + `Knowledge-Cards/`
+
+
+## 相关概念
+- [[daily-review-2026-07-17-insight]]
