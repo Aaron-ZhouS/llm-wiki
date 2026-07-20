@@ -167,3 +167,18 @@
 - Created: `DanKoe/2026-06-28 - How To Become So Valuable AI Can Never Replace You.md`
 - Source: official YouTube RSS metadata, description, and chapter list for `K2QvCV1PB1w`
 - Confidence: low; `yt-dlp` is unavailable and no public transcript was recovered during this run
+
+## [2026-05-17] create | 8D 工具 Skill
+
+- Source: 汽车制造业 8D（Eight Disciplines）问题解决方法论
+  - Ford TOPS 手册（1987）
+  - IATF 16949 / VDA / AESC 标准
+  - 50+ 张图片资料（8D 起源、D0-D8 八步、5W2H、5WHY、冰山模型、Cpk）
+- Pages created:
+  - concepts/8d-toolkit.md（12KB 主文档：8D 八步+5W2H+5WHY+冰山+8 检查点+5 红灯边界）
+- Skill installed at: ~/.hermes/skills/8d-toolkit/
+- Skill version: 2.0.0
+- Use case: 解决生活/自媒体/赚钱/工作场景的复杂问题
+- 达尔文评分：100/100
+- Tags: methodology, problem-solving, system-thinking, quality, 8D
+- Trigger words: 8D、8D工具、问题解决、用8D、/8d
