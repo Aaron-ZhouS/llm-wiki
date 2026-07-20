@@ -59,6 +59,13 @@
 
 - [[codex-hermes-collaboration]] — Codex 与 Hermes 在 Obsidian 知识库中的协作边界，避免双 Agent 自动化冲突
 - [[8d-toolkit]] — 8D 工具 Skill（汽车制造业问题解决方法论，可应用于生活/自媒体/赚钱/工作）
+- [[cognitive-ghost-wall]] — 认知鬼打墙检测（学习是否在加固旧认知）
+- [[real-story-refiner]] — 真实经历提炼器 v3（合并文案助手，含爆款结构+钩子公式）
+- [[knowledge-money-pipeline]] — 知识变现 L1/L2/L3 模型（一对一升级为一对多）
+- [[huashu-flywheel]] — 胡子飞轮系统（每天 2 小时三段式工作法）
+- [[action-diagnosis]] — 行动诊断（13 种约束识别+路由，编排层）
+- [[topical-reading-ai]] — 主题阅读 AI 工作流（5-10 分钟看清话题全貌）
+- [[comment-topic-mining]] — 评论选题挖掘（粘贴 20-50 条评论挖痛点+出选题，完全合规版）
 
 ---
 

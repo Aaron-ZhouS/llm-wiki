@@ -182,3 +182,17 @@
 - 达尔文评分：100/100
 - Tags: methodology, problem-solving, system-thinking, quality, 8D
 - Trigger words: 8D、8D工具、问题解决、用8D、/8d
+
+## [2026-05-17] batch | 7 个 Skill 文档批量入库
+
+- 7 个 Skill 的 SKILL.md 已复制到知识库 concepts/：
+  - cognitive-ghost-wall.md（10KB）
+  - real-story-refiner.md（16KB，含 v3 合并说明）
+  - knowledge-money-pipeline.md（10KB）
+  - huashu-flywheel.md（17KB）
+  - action-diagnosis.md（14KB）
+  - topical-reading-ai.md（9KB）
+  - comment-topic-mining.md（7KB）
+- index.md Concepts 板块更新：完整列出 8 个 Skill
+- 所有 Skill 均已 100/100 分通过达尔文评估
+- 触发：用户确认需要把 8 个 Skill 全部入库
