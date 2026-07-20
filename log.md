@@ -196,3 +196,11 @@
 - index.md Concepts 板块更新：完整列出 8 个 Skill
 - 所有 Skill 均已 100/100 分通过达尔文评估
 - 触发：用户确认需要把 8 个 Skill 全部入库
+
+## [2026-07-20] sync | Skill 自动入库：8d-toolkit
+
+- Source: ~/.hermes/skills/8d-toolkit/SKILL.md
+- Target: concepts/8d-toolkit.md
+- Size: 12364 bytes
+- Method: sync-skill-to-wiki.sh 自动同步
+- Skill version: 2.0.0
