@@ -66,6 +66,7 @@
 - [[action-diagnosis]] — 行动诊断（13 种约束识别+路由，编排层）
 - [[topical-reading-ai]] — 主题阅读 AI 工作流（5-10 分钟看清话题全貌）
 - [[comment-topic-mining]] — 评论选题挖掘（粘贴 20-50 条评论挖痛点+出选题，完全合规版）
+- [[sync-skill-to-wiki-script]] — Skill 自动入库脚本说明（一键同步 Skill 到知识库）
 
 ---
 
