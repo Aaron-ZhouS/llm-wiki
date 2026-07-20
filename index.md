@@ -58,6 +58,7 @@
 ## Concepts
 
 - [[codex-hermes-collaboration]] — Codex 与 Hermes 在 Obsidian 知识库中的协作边界，避免双 Agent 自动化冲突
+- [[8d-toolkit]] — 8D 工具 Skill（汽车制造业问题解决方法论，可应用于生活/自媒体/赚钱/工作）
 
 ---
 
