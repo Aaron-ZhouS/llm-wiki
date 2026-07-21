@@ -59,6 +59,7 @@
 
 - [[codex-hermes-collaboration]] — Codex 与 Hermes 在 Obsidian 知识库中的协作边界，避免双 Agent 自动化冲突
 - [[8d-toolkit]]
+- [[knowledge-card-design]] — 知识卡片设计 v5.2（先锻造后出图，Kindle 纸书风，4 铁律+5 板块+3 线输出）
 - [[sankuaifa]] — 三块法教练 v4（理解→连接→落地，学透一个概念，含 9 问+4 场景+SMART）
 - [[oral-alchemy]] — 口播炼金 v4（8 大叙事库+7 步黄金骨架，把素材变成 3-7 分钟口播稿）
 - [[knowledge-card-forge]] — 知识卡片锻造 v4（4 铁律+3 等级，把零散经验变成可复用结构化卡片）

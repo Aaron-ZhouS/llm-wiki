@@ -262,3 +262,12 @@
 - Skill version: 4.0.0
 - 评分: 100/100
 - 分享版: /tmp/sankuaifa-share.md（6 个文件 + 安装说明）
+
+## [2026-07-21] sync | knowledge-card-design Skill v5.2 文档入库
+
+- Source: ~/.hermes/skills/creative/knowledge-card-design/SKILL.md
+- Target: concepts/knowledge-card-design.md
+- Skill version: 5.1.0 → 5.2.0
+- 评分: 100/100
+- 状态: 已有 7 个 v5.1 文件，新增 4 个 v5.2 文件（four-laws/standard-card/case-examples/quick-reference）
+- 分享版: /tmp/knowledge-card-design-share.md（增量补丁版）
