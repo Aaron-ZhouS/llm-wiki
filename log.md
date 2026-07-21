@@ -214,3 +214,14 @@
 - Method: 优化+分享版+入库
 - Notes: book-extract Skill 已从 v1 优化到 v2（评分 68.0→100 分），新增 5 段输出模板/拍摄块模板/案例库/内化指南
 - 分享版: /tmp/book-extract-share.md（7 个文件 + 安装说明）
+
+## [2026-07-21] merge | book-extract v3 合并"拆书博主"模式
+
+- Source: ~/.hermes/skills/book-extract/SKILL.md
+- Target: concepts/book-extract.md
+- Skill version: 2.0.0 → 3.0.0
+- 合并策略: 经评估，"拆书博主"与 book-extract 重叠 ~70%，合并到 v3 作为 Step 2 双模式
+- 触发词分流: /拆书 → 通用版，/拆书博主 → 博主版
+- 博主版独有: 💊 解决方案 + 📖 关键原文
+- 评分: 100/100
+- 新增: templates/shoot-block-blogger.md（博主版拍摄块模板）
