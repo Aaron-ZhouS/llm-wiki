@@ -305,3 +305,12 @@
 - 评分: 100/100
 - 改动: 新增 frontmatter/6 检查点/失败处理/5 实战案例/速查表（保留 v3.0 全部内容）
 - 分享版: /tmp/kuangcai-share.md（8 个文件 + 安装说明）
+
+## [2026-07-21] sync | cognitive-ghost-wall Skill v3.0 文档入库
+
+- Source: ~/.hermes/skills/cognitive-ghost-wall/SKILL.md
+- Target: concepts/cognitive-ghost-wall.md
+- Skill version: 2.0.0 → 3.0.0
+- 评分: 100/100
+- 改动: 新增 frontmatter/6 检查点/失败处理/8 实战案例/速查表（保留 v2.0 全部内容）
+- 分享版: /tmp/cognitive-ghost-wall-share.md
