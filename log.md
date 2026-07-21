@@ -254,3 +254,11 @@
 - Skill version: 3.0.0 → 4.0.0
 - 评分: 100/100
 - 分享版: /tmp/oral-alchemy-share.md（6 个文件 + 安装说明）
+
+## [2026-07-21] sync | sankuaifa Skill v4 文档入库
+
+- Source: ~/.hermes/skills/sankuaifa/SKILL.md
+- Target: concepts/sankuaifa.md
+- Skill version: 4.0.0
+- 评分: 100/100
+- 分享版: /tmp/sankuaifa-share.md（6 个文件 + 安装说明）
