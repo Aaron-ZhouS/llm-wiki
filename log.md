@@ -245,3 +245,12 @@
 - Skill version: 3.0.0 → 4.0.0
 - 评分: 100/100
 - 分享版: /tmp/knowledge-card-forge-share.md（5 个文件 + 安装说明）
+
+## [2026-07-21] sync | oral-alchemy Skill v4 文档入库
+
+- Source: ~/.hermes/skills/oral-alchemy/SKILL.md
+- Target: concepts/oral-alchemy.md
+- Size: 10988 bytes
+- Skill version: 3.0.0 → 4.0.0
+- 评分: 100/100
+- 分享版: /tmp/oral-alchemy-share.md（6 个文件 + 安装说明）

@@ -59,6 +59,7 @@
 
 - [[codex-hermes-collaboration]] — Codex 与 Hermes 在 Obsidian 知识库中的协作边界，避免双 Agent 自动化冲突
 - [[8d-toolkit]]
+- [[oral-alchemy]] — 口播炼金 v4（8 大叙事库+7 步黄金骨架，把素材变成 3-7 分钟口播稿）
 - [[knowledge-card-forge]] — 知识卡片锻造 v4（4 铁律+3 等级，把零散经验变成可复用结构化卡片）
 - [[linggan-alchemy]] — 灵感炼金炉 Skill（7 刃快速切割+快速档输出，把模糊想法锻造成锋利洞见）
 - [[book-extract]] — 拆书提取关键知识 Skill（5段固定输出+2-4条可拍块+知识库内化）
