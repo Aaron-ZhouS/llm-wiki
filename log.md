@@ -296,3 +296,12 @@
 - 类型: 框架 Skill（meta Skill，调用其他 Skill）
 - 关联: 20 个现有 Skill 全部 100 分
 - 分享版: /tmp/knowledge-creation-framework-share.md（8 文件 + 安装说明）
+
+## [2026-07-21] sync | kuangcai Skill v4.0 文档入库
+
+- Source: ~/.hermes/skills/kuangcai/SKILL.md
+- Target: concepts/kuangcai.md
+- Skill version: 3.0.0 → 4.0.0
+- 评分: 100/100
+- 改动: 新增 frontmatter/6 检查点/失败处理/5 实战案例/速查表（保留 v3.0 全部内容）
+- 分享版: /tmp/kuangcai-share.md（8 个文件 + 安装说明）
