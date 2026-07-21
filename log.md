@@ -236,3 +236,12 @@
 - Notes: 灵感炼金炉 Skill v2 优化版（7 刃快速切割+快速档输出）
 - 关系: 与 oral-alchemy 是上下游关系（灵感炼金炉=提炼洞见，oral-alchemy=写逐字稿）
 - 分享版: /tmp/linggan-alchemy-share.md（6 个文件 + 安装说明）
+
+## [2026-07-21] sync | knowledge-card-forge Skill v4 文档入库
+
+- Source: ~/.hermes/skills/knowledge-card-forge/SKILL.md
+- Target: concepts/knowledge-card-forge.md
+- Size: 10042 bytes
+- Skill version: 3.0.0 → 4.0.0
+- 评分: 100/100
+- 分享版: /tmp/knowledge-card-forge-share.md（5 个文件 + 安装说明）

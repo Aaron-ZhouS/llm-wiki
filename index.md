@@ -59,6 +59,7 @@
 
 - [[codex-hermes-collaboration]] — Codex 与 Hermes 在 Obsidian 知识库中的协作边界，避免双 Agent 自动化冲突
 - [[8d-toolkit]]
+- [[knowledge-card-forge]] — 知识卡片锻造 v4（4 铁律+3 等级，把零散经验变成可复用结构化卡片）
 - [[linggan-alchemy]] — 灵感炼金炉 Skill（7 刃快速切割+快速档输出，把模糊想法锻造成锋利洞见）
 - [[book-extract]] — 拆书提取关键知识 Skill（5段固定输出+2-4条可拍块+知识库内化）
 - [[mvp]] — MVP 执行力 Skill（从大想法里抽出最小可执行版本，3问流程+5规矩） — 8D 工具 Skill（汽车制造业问题解决方法论，可应用于生活/自媒体/赚钱/工作）
