@@ -58,7 +58,8 @@
 ## Concepts
 
 - [[codex-hermes-collaboration]] — Codex 与 Hermes 在 Obsidian 知识库中的协作边界，避免双 Agent 自动化冲突
-- [[8d-toolkit]] — 8D 工具 Skill（汽车制造业问题解决方法论，可应用于生活/自媒体/赚钱/工作）
+- [[8d-toolkit]]
+- [[mvp]] — MVP 执行力 Skill（从大想法里抽出最小可执行版本，3问流程+5规矩） — 8D 工具 Skill（汽车制造业问题解决方法论，可应用于生活/自媒体/赚钱/工作）
 - [[cognitive-ghost-wall]] — 认知鬼打墙检测（学习是否在加固旧认知）
 - [[real-story-refiner]] — 真实经历提炼器 v3（合并文案助手，含爆款结构+钩子公式）
 - [[knowledge-money-pipeline]] — 知识变现 L1/L2/L3 模型（一对一升级为一对多）
