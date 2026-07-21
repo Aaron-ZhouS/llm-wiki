@@ -225,3 +225,14 @@
 - 博主版独有: 💊 解决方案 + 📖 关键原文
 - 评分: 100/100
 - 新增: templates/shoot-block-blogger.md（博主版拍摄块模板）
+
+## [2026-07-21] sync | linggan-alchemy Skill 文档入库
+
+- Source: ~/.hermes/skills/linggan-alchemy/SKILL.md
+- Target: concepts/linggan-alchemy.md
+- Size: 12294 bytes
+- Skill version: 2.0.0
+- 评分: 100/100
+- Notes: 灵感炼金炉 Skill v2 优化版（7 刃快速切割+快速档输出）
+- 关系: 与 oral-alchemy 是上下游关系（灵感炼金炉=提炼洞见，oral-alchemy=写逐字稿）
+- 分享版: /tmp/linggan-alchemy-share.md（6 个文件 + 安装说明）
