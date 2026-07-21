@@ -323,3 +323,12 @@
 - 评分: 100/100 (v3: 90.4)
 - 改动: 末尾追加 5 检查点 + 6 失败处理 + 引用 8 个实战补充案例
 - 分享版: /tmp/real-story-refiner-share.md
+
+## [2026-07-21] sync | action-diagnosis Skill v3.0 文档入库
+
+- Source: ~/.hermes/skills/action-diagnosis/SKILL.md
+- Target: concepts/action-diagnosis.md
+- Skill version: 2.0.0 → 3.0.0
+- 评分: 100/100 (v2: 79.4)
+- 改动: 末尾追加 8 检查点 + 8 失败处理 + 引用 8 实战补充案例
+- 分享版: /tmp/action-diagnosis-share.md
