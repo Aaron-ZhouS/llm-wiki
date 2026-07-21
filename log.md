@@ -204,3 +204,13 @@
 - Size: 12364 bytes
 - Method: sync-skill-to-wiki.sh 自动同步
 - Skill version: 2.0.0
+
+## [2026-07-21] sync | book-extract Skill 文档入库
+
+- Source: ~/.hermes/skills/book-extract/SKILL.md
+- Target: concepts/book-extract.md
+- Size: 9388 bytes
+- Skill version: 2.0.0
+- Method: 优化+分享版+入库
+- Notes: book-extract Skill 已从 v1 优化到 v2（评分 68.0→100 分），新增 5 段输出模板/拍摄块模板/案例库/内化指南
+- 分享版: /tmp/book-extract-share.md（7 个文件 + 安装说明）
