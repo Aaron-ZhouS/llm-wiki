@@ -57,6 +57,7 @@
 
 ## Concepts
 
+- [[knowledge-creation-framework]] — 知识创建框架 Skill 映射（QClaw → Hermes：避免重复安装，用现有 100 分 Skill）
 - [[codex-hermes-collaboration]] — Codex 与 Hermes 在 Obsidian 知识库中的协作边界，避免双 Agent 自动化冲突
 - [[8d-toolkit]]
 - [[para-collide]] — 灵感对撞机 v2（PARA 知识库协作，4 阶段：收件→碰撞→铸卡→归档）

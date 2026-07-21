@@ -279,3 +279,10 @@
 - Skill version: 2.0.0
 - 评分: 100/100
 - 分享版: /tmp/para-collide-share.md（7 个文件 + 安装说明）
+
+## [2026-07-21] create | 知识创建框架 Skill 映射文档
+
+- Path: concepts/knowledge-creation-framework.md
+- Type: 元文档（不是新 Skill）
+- 用途: QClaw 框架映射到 Hermes 已有 Skill，避免重复安装
+- 关系: 引用 15 个 100 分 Skill（linggan-alchemy, kuangcai-mining, oral-alchemy, para-collide 等）
