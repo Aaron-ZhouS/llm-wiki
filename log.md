@@ -341,3 +341,12 @@
 - 评分: 100/100 (v2: 84.2)
 - 改动: 末尾追加 7 检查点 + 6 失败处理 + 5 实战补充案例
 - 分享版: /tmp/huashu-flywheel-share.md
+
+## [2026-07-21] sync | knowledge-money-pipeline Skill v3.0 文档入库
+
+- Source: ~/.hermes/skills/knowledge-money-pipeline/SKILL.md
+- Target: concepts/knowledge-money-pipeline.md
+- Skill version: 2.0.0 → 3.0.0
+- 评分: 100/100 (v2: 81.0)
+- 改动: 末尾追加 7 检查点 + 7 失败处理 + 5 实战补充案例
+- 分享版: /tmp/knowledge-money-pipeline-share.md
