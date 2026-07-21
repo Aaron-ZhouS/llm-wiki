@@ -314,3 +314,12 @@
 - 评分: 100/100
 - 改动: 新增 frontmatter/6 检查点/失败处理/8 实战案例/速查表（保留 v2.0 全部内容）
 - 分享版: /tmp/cognitive-ghost-wall-share.md
+
+## [2026-07-21] sync | real-story-refiner Skill v3.1 文档入库
+
+- Source: ~/.hermes/skills/real-story-refiner/SKILL.md
+- Target: concepts/real-story-refiner.md
+- Skill version: 3.0.0 → 3.1.0
+- 评分: 100/100 (v3: 90.4)
+- 改动: 末尾追加 5 检查点 + 6 失败处理 + 引用 8 个实战补充案例
+- 分享版: /tmp/real-story-refiner-share.md
