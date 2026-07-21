@@ -1,187 +1,213 @@
 ---
-title: 知识创建框架 · Hermes Skill 映射
-created: 2026-05-17
-tags: [framework, kb, para, qclaw, skill-mapping]
-related: [linggan-alchemy, kuangcai-mining, oral-alchemy, para-collide, nuwa-skill, darwin-skill]
+name: knowledge-creation-framework
+description: "知识创建框架 Skill：搭一个完整 KB 知识库（PARA + 知识周转率 + 4 步流程）。基于 QClaw 框架，复用 Hermes 已有 15 个 100 分 Skill（linggan-alchemy/kuangcai-mining/oral-alchemy/para-collide 等）。触发词：搭kb、kb框架、帮我搭知识库、/qclaw、知识框架。"
+version: 1.0.0
+author: alchaincyf + Hermes Agent（基于 QClaw 知识创建框架）
+license: MIT
+metadata:
+  hermes:
+    tags: [framework, kb, para, qclaw, knowledge-base, system]
+    category: productivity
+    related_skills: [linggan-alchemy, kuangcai-mining, oral-alchemy, para-collide, knowledge-card-forge, knowledge-card-design, nuwa-skill, darwin-skill, real-story-refiner, sankuaifa, 8d-toolkit, action-diagnosis, mvp, book-extract, topical-reading-ai, comment-topic-mining]
+allowed-tools: [Read, Write, Bash]
+skill_type: 框架
+when_to_use: "想从 0 搭一套 KB 知识体系；想用 PARA + 知识周转率理论；想系统化自己的内容工作流。"
+not_when: "只想用单个 Skill（如只做口播，直接用 oral-alchemy）；已经有 KB 只想加内容（直接用 para-collide）；想优化单个 Skill（用 darwin-skill）。"
+experiment_status: active
+usage_count: 0
 ---
 
-# 知识创建框架 · Hermes Skill 映射
+# 知识创建框架 · Hermes Skill 适配版
 
-> **目的**：避免重复安装 Skill。当你想执行"知识创建框架"中的某一步时，直接用对应的 Hermes 触发词即可。
-
----
-
-## 框架 vs Hermes Skill 总览
-
-| 框架要求 | 你已有的 Hermes Skill | 触发词 |
-|---------|---------------------|--------|
-| 入口过滤（入盒规则）| 你的大脑 + PARA-collide（仓库管理）| `/对撞`、`碰一下` |
-| 灵感引擎（7 刃切割）| **`linggan-alchemy`**（灵感炼金）| `灵感炼金`、`/alchemy` |
-| 挖矿（8 条规则）| **`kuangcai-mining`**（挖矿）| `挖矿`、`/kuangcai` |
-| 口播（输出形式 1）| **`oral-alchemy`**（口播炼金）| `/口播炼金` |
-| 长文（小报童/公众号）| **`linggan-alchemy` 7 刃 → 长文展开** | `灵感炼金：[主题]` |
-| 短内容（知识星球）| **`kuangcai-mining` 压缩到 300-400 字** | `挖矿：[素材]` |
-| 净稿 | 你自己 / LLM 转写 | - |
-| 知识卡（图）| **`knowledge-card-design`**（Kindle 风图）| `/card-design` |
-| 知识卡（纯文字）| **`knowledge-card-forge`**（4 铁律 L1）| `/锻造` |
-| 金句/破局 | **`linggan-alchemy`**（破局点+金句）| `灵感炼金` |
-| 主题阅读 | **`topical-reading-ai`**（多视角）| `/主题阅读AI` |
-| 拆书 | **`book-extract`**（拆书博主模式）| `/拆书`、`/拆书博主` |
-| 评论挖掘 | **`comment-topic-mining`**（评论挖掘）| `分析评论` |
-| 拆解需求 | **`action-diagnosis`**（13 种约束识别）| `行动诊断` |
-| 三块法（学概念）| **`sankuaifa`**（理解→连接→落地）| `/三块法` |
-| 写实经历 | **`real-story-refiner`**（v3 含爆款公式）| `真实经历提炼` |
-| 故障系统地思考 | **`8d-toolkit`**（8 步标准化问题解决）| `8D`、`/8d` |
-| 最小行动 | **`mvp`**（最小可执行版本）| `MVP`、`动不了` |
-| Skills 元能力（造）| **`nuwa-skill`**（女娲）| `女娲`、`造skill` |
-| Skills 元能力（优化）| **`darwin-skill`**（达尔文）| `优化skill`、`达尔文` |
-
-**所有 15 个 Skill 都已装，全部 100/100 分。**
+> **核心立场**：LLM 是推理代理，不是索引器。框架提供 OS，Skill 提供脚手架。
+> **触发**：用户说"搭kb" / "kb框架" / "帮我搭知识库" / `/qclaw` / "知识框架" → AI 自动跑框架 4 步搭建。
 
 ---
 
-## 框架的核心 OS（"知识周转率闭环"）
+## 一句话定位
 
-这个 OS 是框架的**理论核心**。已经写到知识库文档：
+**输入（用户的"基本信息"）→ 5 步检测 → 自动创建 PARA 目录 → 写入 4 个核心文档 → 完成搭建。**
 
-📍 `02 - Areas/知识周转率闭环系统.md`
+---
 
-**重点摘要**：
+## 使用方法（最简单用法）
 
+### 用户的最简单触发
+
+> "帮我搭一个知识库"
+
+AI 自动：
+1. 问基本信息（账号/vault 路径/平台/节奏/受众）
+2. 检测 Vault 路径
+3. 创建 PARA 目录 + Templates
+4. 写入 4 个核心文档
+5. 完成
+
+### 进阶触发（带前填信息）
+
+```
+"帮我搭知识库：
+- 账号名：周盛说
+- Vault 路径：D:/Obsidian/llm-wiki/
+- 平台：视频号 + 公众号
+- 节奏：周一发视频号，周四发公众号
+- 受众：30-45 岁一人公司创始人"
+```
+
+AI 直接开始，无需追问。
+
+---
+
+## 4 步搭建流程
+
+### Step 0：问基本信息
+
+5 个问题（可提前填好）：
+
+```
+1. 【账号名/艺名】：_______________
+2. 【Obsidian vault 存放路径】：~/Obsidian/【你的vault】/
+3. 【主要创作平台】：抖音 / 视频号 / 公众号 / 知识星球 / 小报童 / 其他
+4. 【每周固定节奏】：周几发布什么？_______________
+5. 【核心受众】：_______________
+```
+
+### Step 1：创建 PARA 目录结构
+
+```
+【你的Vault】/
+├── 00 - 灵感库/
+├── 01 - Projects/
+├── 02 - Areas/
+├── 03 - Resources/
+├── 04 - Archive/
+├── 05 - Skills/
+├── Templates/
+└── vault-scripts/
+```
+
+**PARA 核心**：00 - 灵感库 是过滤入口，其他按需填充。
+
+### Step 2：写入 4 个核心 OS 文档
+
+1. `02 - Areas/知识周转率闭环系统.md` — **核心理论**
+2. `00 - 灵感库/index.md` — **入口规则（入盒/出盒）**
+3. `00 - 灵感库/创作流程.md` — **3 步流程**
+4. `Templates/Skills 清单.md`（可选）
+
+### Step 3：链接到 15 个现有 Hermes Skill
+
+框架触发的子任务**直接复用**已装的 Skill：
+
+| 框架步骤 | 调用的 Hermes Skill |
+|---------|---------------------|
+| 入盒判断 | para-collide（04 - 归档）|
+| 灵感引擎（7 刃）| linggan-alchemy |
+| 挖矿（8 条规则）| kuangcai-mining |
+| 卡（文字）| knowledge-card-forge |
+| 卡（图）| knowledge-card-design |
+| 口播（3-7 分钟）| oral-alchemy |
+| 长文 | linggan-alchemy → 展开 |
+| Skills 元能力 | nuwa / darwin |
+
+### Step 4：验证
+
+3 个测试：
+
+```
+1. 入盒测试：写一条最不舒服的观点，看是否满足 4 入盒规则
+2. 流程测试：跑"灵感引擎→挖矿"，看产出是否让你觉得"这个我没想到"
+3. 门禁测试：写完内容，用门禁四问反问自己
+```
+
+---
+
+## 框架的核心 OS
+
+OS = **知识周转率闭环系统**
+
+5 个核心结论：
 - 知识不是"拥有"，是"周转"
-- 库存堆积导致认知过载 → 创意枯竭
-- LLM 正确用法：推理代理（**不是**索引器）
+- 库存堆积 → 认知过载 → 创意枯竭
+- LLM 是推理代理，不是索引器
 - 3 环迭代：入口触发 → 验证加工 → 认知演进
+- 门禁四问：可证伪测试 / 穿透力测试 / 最强反方测试 / 迭代检查
+
+**详见**：`references/framework-os.md`
 
 ---
 
-## 4 步创作流程（已与 Hermes 对接）
+## 何时用这个框架
 
-| 步骤 | 框架要求 | 用 Hermes Skill | 操作 |
-|------|---------|----------------|------|
-| Step 1 灵感引擎 | 7 刃切割（悖论/杠杆/溯源/反转/类比/笨拙/尺度） | `灵感炼金：[主题]` | AI 跑 7 刃，你挑喜欢的 |
-| Step 2 挖矿 | 8 条规则（选矿/对抗/钢人/画面/删词/禁词/结构/源代码） | `挖矿：[素材]` | AI 跑 8 规则，你判断产出 |
-| Step 3 输出形式 | 你自己决定 | - | 不要在 Step 2 阶段判断 |
-| Step 4 入库 | 反馈闭环（PARA）| `对撞：[素材]` | 用 para-collide 自动归档 |
+用本框架：
+- 想从 0 搭一套 KB 知识体系
+- 想用 PARA + 知识周转率理论
+- 想系统化内容创作工作流
 
----
-
-## 7 个核心触发词速查
-
-```
-✅ 入盒         → 你的大脑（满足 4 条入盒规则之一）
-✅ 入口过滤     → PARA-collide（保持灵感库 ≤10 篇）
-✅ 灵感炼 7 刃  → "灵感炼金：[主题]"
-✅ 挖矿 8 规则   → "挖矿：[素材]"
-✅ 知识卡（图） → "/card-design [内容]"
-✅ 知识卡（纯文字）→ "/锻造 [内容]"
-✅ 优化 Skill    → "达尔文" 或 "优化 [skill名]"
-✅ 新造 Skill    → "女娲：[需求]"
-```
+不用本框架：
+- 只做一件事（如发口播，直接用 oral-alchemy）
+- 已有 KB 只想加内容（直接用 para-collide）
+- 只想优化 Skill（用 darwin-skill）
 
 ---
 
-## 何时用什么 Skill（决策树）
+## 红灯边界
 
-```
-我想要...
-
-├─ 入口过滤（4 入盒规则）→ 你的大脑判断
-├─ 对撞多个素材出洞见    → para-collide（已有 v2）
-│
-├─ 单素材提炼（7 刃）    → linggan-alchemy
-├─ 单素材挖矿（8 条规则）→ kuangcai-mining
-│
-├─ 拆书（5 段 + 拍摄块）→ book-extract（含 /拆书 /拆书博主）
-├─ 评论分析           → comment-topic-mining
-├─ 多视角（5 个）     → topical-reading-ai
-│
-├─ 输出成口播（3-7min）→ oral-alchemy
-├─ 输出成知识卡（文字）→ knowledge-card-forge
-├─ 输出成知识卡（图） → knowledge-card-design
-│
-├─ 学透一个概念       → sankuaifa（理解→连接→落地）
-├─ 写实经历          → real-story-refiner
-├─ 解决复杂问题       → 8d-toolkit
-├─ 诊断卡在哪        → action-diagnosis
-├─ 抽出最小行动      → mvp
-│
-└─ Skills 元能力
-   ├─ 新造 Skill      → nuwa-skill（女娲）
-   ├─ 优化 Skill 评分  → darwin-skill（达尔文）
-   └─ 重新搭知识框架   → 本文档
-```
+- 🚫 用户没回答基本信息就开搭 — 先问 5 个问题
+- 🚫 Vault 路径不存在 — 提示用户先建 vault
+- 🚫 路径冲突（WSL 还是 D 盘）— 用 para-collide 的 5 步发现协议
+- 🚫 Skills 未装 — 提醒先用 nuwa+darwin 这套
+- 🚫 入门阶段（用户不懂 PARA）— 先解释概念再开搭
 
 ---
 
-## 工作流示例
+## 检查点设计
 
-### 示例 1：写一篇小报童专栏
-
-```
-1. 找到灵感库里那条笔记 → "我现在想写：xx"
-2. 灵感引擎：
-   "灵感炼金：xx"
-   → AI 跑 7 刃，挑出喜欢的角度
-3. 挖矿：
-   "挖矿：[7 刃产出]"
-   → AI 跑 8 规则，提炼成 300-800 字核心判断
-4. 输出长文（900-1200 字）：
-   "展开挖矿结果，写成长文"
-   → AI 帮你展开
-5. 入库：
-   "对撞：把这条笔记归档到 [02-Areas/对应主题]"
-   → AI 用 para-collide 归档
-```
-
-### 示例 2：发一条视频号
-
-```
-1. 灵感库 → "灵感炼金：xx"
-2. → koubo-cola（30-40 秒短稿）
-3. → 1 条口播稿 → 发视频号
-```
-
-### 示例 3：做知识卡（小红书图）
-
-```
-1. 灵感库 → 灵感炼金 → 挖矿 → 出 1 个核心判断
-2. → "/锻造 KC-XXX-XXX-[判断]"（文字卡）
-3. → "/card-design" 把文字卡渲染成图
-4. → 入 para-collide 归档
-```
+| CP | 触发 | 用户需要确认 |
+|----|------|-------------|
+| CP1 | Step 0 后 | 5 个基本信息齐？ |
+| CP2 | Step 1 后 | PARA 4 个核心目录都建？ |
+| CP3 | Step 2 后 | 4 个核心文档都写入？ |
+| CP4 | Step 3 后 | Skill 链接都能正确调用？ |
+| CP5 | Step 4 后 | 3 个验证测试都通过？ |
 
 ---
 
-## 框架的"不要做"清单
+## 失败处理（Fallback）
 
-来自核心 OS 文档：
-
-- ❌ **不要**跳过 Step 1（灵感引擎）直接挖矿
-- ❌ **不要**把"删除"等同于"放空"——删除是主动选择
-- ❌ **不要**追求"全面"——追求"锋利"
-- ❌ **不要**让灵感库堆满——超过 10 篇就失控
-- ❌ **不要**超过 2 周没处理——超过就直接删
-- ❌ **不要**在挖矿阶段判断输出形式——会污染
+| 失败场景 | Fallback |
+|---------|---------|
+| Vault 路径不存在 | 提示用户先在 Obsidian 创建 vault |
+| 5 个基本信息不全 | 引导"至少先填 3 个" |
+| PARA 目录已存在 | 跳过创建，告警"该目录已存在" |
+| Skills 触发失败 | 提示用户检查对应 Skill 是否装好 |
+| 内容产生质量差 | 引导"用 4 铁律 + 4 入盒规则筛选" |
 
 ---
 
-## 总结
+## 与相关 Skill 的关系
 
-**核心要点：**
+| Skill | 关系 |
+|-------|------|
+| **para-collide** | 主要 Skill：管理 PARA + 路径发现 |
+| **linggan-alchemy** | 灵感引擎（7 刃）|
+| **kuangcai-mining** | 挖矿（8 条规则）|
+| **knowledge-card-forge** | 文字卡 |
+| **knowledge-card-design** | 图卡 |
+| **oral-alchemy** | 口播 |
+| **nuwa-skill** | 造新 Skill |
+| **darwin-skill** | 优化 Skill |
 
-1. **核心 OS 已写完**——`02 - Areas/知识周转率闭环系统.md`
-2. **入口/出盒规则已写完**——`00 - 灵感库/index.md`
-3. **创作流程已写完**——`00 - 灵感库/创作流程.md`
-4. **Skills 都已装**——通过上面的"映射表"直接用对应 Skill
-5. **不需要重复安装任何 Skill**
-
-**以后执行框架的某一步时**：直接说对应的触发词（如"灵感炼金：xxx"、"挖矿：xxx"），AI 会自动调用对应的 Hermes Skill。
+**全部 15 个 Skill 都已 100/100 分。**
 
 ---
 
 ## 引用与来源
 
-- **框架原始来源**：QClaw 知识创建框架（alchaincyf）
-- **Hermes 适配版本**：v2.0.0（2026-05-17）
-- **本映射文档路径**：`~/.hermes/skills/creative/knowledge-creation-framework.md`（或 wiki 路径）
+- **原作者**：alchaincyf（QClaw 知识创建框架）
+- **Hermes 适配版本**：v1.0.0（2026-05-17）
+- **本地路径**：`~/.hermes/skills/knowledge-creation-framework/`
+
+---
+
+*Skill 优化版本：1.0 | 最后更新：2026-05-17 | 目标评分：100/100*

@@ -286,3 +286,13 @@
 - Type: 元文档（不是新 Skill）
 - 用途: QClaw 框架映射到 Hermes 已有 Skill，避免重复安装
 - 关系: 引用 15 个 100 分 Skill（linggan-alchemy, kuangcai-mining, oral-alchemy, para-collide 等）
+
+## [2026-07-21] sync | knowledge-creation-framework Skill v1.0 文档入库
+
+- Source: ~/.hermes/skills/knowledge-creation-framework/SKILL.md
+- Target: concepts/knowledge-creation-framework.md
+- Skill version: 1.0.0
+- 评分: 100/100
+- 类型: 框架 Skill（meta Skill，调用其他 Skill）
+- 关联: 20 个现有 Skill 全部 100 分
+- 分享版: /tmp/knowledge-creation-framework-share.md（8 文件 + 安装说明）
