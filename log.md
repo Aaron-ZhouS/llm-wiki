@@ -271,3 +271,11 @@
 - 评分: 100/100
 - 状态: 已有 7 个 v5.1 文件，新增 4 个 v5.2 文件（four-laws/standard-card/case-examples/quick-reference）
 - 分享版: /tmp/knowledge-card-design-share.md（增量补丁版）
+
+## [2026-07-21] sync | para-collide Skill v2 文档入库
+
+- Source: ~/.hermes/skills/para-collide/SKILL.md
+- Target: concepts/para-collide.md
+- Skill version: 2.0.0
+- 评分: 100/100
+- 分享版: /tmp/para-collide-share.md（7 个文件 + 安装说明）
