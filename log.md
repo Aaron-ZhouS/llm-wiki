@@ -332,3 +332,12 @@
 - 评分: 100/100 (v2: 79.4)
 - 改动: 末尾追加 8 检查点 + 8 失败处理 + 引用 8 实战补充案例
 - 分享版: /tmp/action-diagnosis-share.md
+
+## [2026-07-21] sync | huashu-flywheel Skill v3.0 文档入库
+
+- Source: ~/.hermes/skills/huashu-flywheel/SKILL.md
+- Target: concepts/huashu-flywheel.md
+- Skill version: 2.0.0 → 3.0.0
+- 评分: 100/100 (v2: 84.2)
+- 改动: 末尾追加 7 检查点 + 6 失败处理 + 5 实战补充案例
+- 分享版: /tmp/huashu-flywheel-share.md
