@@ -377,3 +377,12 @@
 - 评分: 100/100 (v3: 65.0)
 - 改动: 新增 frontmatter/5 检查点/5 失败处理/6 实战案例/4 等级判定
 - 分享版: /tmp/knowledge-runnable-check-share.md
+
+## [2026-07-23] sync | fake-map-self-check Skill v2.0 文档入库
+
+- Source: ~/.hermes/skills/fake-map-self-check/SKILL.md
+- Target: concepts/fake-map-self-check.md
+- Skill version: 2.0.0
+- 评分: 100/100 (v1: 73.8)
+- 改动: 新增 frontmatter/6 检查点/6 失败处理/4 实战案例/3 步纠偏+运行脚本
+- 分享版: /tmp/fake-map-self-check-share.md
