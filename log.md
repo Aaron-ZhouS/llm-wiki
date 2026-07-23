@@ -359,3 +359,12 @@
 - 评分: 100/100 (v2: 81.0)
 - 改动: 末尾追加 6 检查点 + 6 失败处理 + 5 实战主题
 - 分享版: /tmp/topical-reading-ai-share.md
+
+## [2026-07-23] sync | extract-success-method Skill v3.0 文档入库
+
+- Source: ~/.hermes/skills/extract-success-method/SKILL.md
+- Target: concepts/extract-success-method.md
+- Skill version: 3.0.0
+- 评分: 100/100 (v2: 73.4)
+- 改动: 新增 frontmatter/5 检查点/5 失败处理/8 联动/4 实战案例
+- 分享版: /tmp/extract-success-method-share.md
