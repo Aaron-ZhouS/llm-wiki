@@ -368,3 +368,12 @@
 - 评分: 100/100 (v2: 73.4)
 - 改动: 新增 frontmatter/5 检查点/5 失败处理/8 联动/4 实战案例
 - 分享版: /tmp/extract-success-method-share.md
+
+## [2026-07-23] sync | knowledge-runnable-check Skill v4.0 文档入库
+
+- Source: ~/.hermes/skills/knowledge-runnable-check/SKILL.md
+- Target: concepts/knowledge-runnable-check.md
+- Skill version: 4.0.0
+- 评分: 100/100 (v3: 65.0)
+- 改动: 新增 frontmatter/5 检查点/5 失败处理/6 实战案例/4 等级判定
+- 分享版: /tmp/knowledge-runnable-check-share.md
