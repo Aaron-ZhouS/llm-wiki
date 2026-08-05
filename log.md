@@ -476,3 +476,12 @@
 - 评分: 100/100 (v1: 79.0)
 - 改动: 新增 frontmatter/5 检查点/5 失败处理/4 实战案例/思考链详解
 - 分享版: /tmp/ai-context-config-share.md
+
+## [2026-08-05] sync | reflect Skill v6.0 文档入库
+
+- Source: ~/.hermes/skills/reflect/SKILL.md
+- Target: concepts/reflect.md
+- Skill version: 5.0 → 6.0.0
+- 评分: 100/100 (v5: 88.3)
+- 改动: 新增 frontmatter/7 检查点/5 失败处理/3 实战案例/mutation-tracker.py 脚本
+- 分享版: /tmp/reflect-share.md
