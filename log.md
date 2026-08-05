@@ -446,3 +446,15 @@
 - scripts/signal-classifier.py（信号分类脚本）
 
 脚本功能：自动检测碎片中的 5 类信号 + 识别模糊表述
+
+## [2026-08-05] batch | 五步切片法 4 个 Skill 加辅助文件
+
+| Skill | references | templates | assets | scripts |
+|-------|-----------|-----------|--------|---------|
+| slice-find | signal-types.md + two-scales.md (10KB) | case-examples.md + fallback-templates.md (10KB) | quick-reference.md | **signal-classifier.py** ✅ |
+| slice-break | six-dimensions.md | case-examples.md | quick-reference.md | - |
+| slice-edit | three-piece.md | case-examples.md | quick-reference.md | - |
+| slice-store | para-directories.md | case-examples.md | quick-reference.md | - |
+| slice-diagnose | contradiction-detection.md | case-examples.md | quick-reference.md | - |
+
+脚本 signal-classifier.py 已测试 3 个用例通过。
