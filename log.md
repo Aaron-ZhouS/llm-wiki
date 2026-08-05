@@ -395,3 +395,12 @@
 - 评分: 100/100 (v2: 77.1)
 - 改动: 新增 frontmatter/5 检查点/5 失败处理/5 实战案例/2 个脚本
 - 分享版: /tmp/problem-definer-share.md
+
+## [2026-08-05] sync | oral-practice Skill v3.0 文档入库
+
+- Source: ~/.hermes/skills/oral-practice/SKILL.md
+- Target: concepts/oral-practice.md
+- Skill version: 3.0.0
+- 评分: 100/100 (v1: 75.9)
+- 改动: 新增 frontmatter/7 检查点/7 失败处理/5 实战案例/练习记录脚本
+- 分享版: /tmp/oral-practice-share.md
