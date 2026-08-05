@@ -467,3 +467,12 @@
 - 评分: 100/100 (v1: 67.4)
 - 改动: 新增 frontmatter/5 检查点/5 失败处理/5 实战案例/4 层详解
 - 分享版: /tmp/viral-reverse-engine-share.md
+
+## [2026-08-05] sync | ai-context-config Skill v2.0 文档入库
+
+- Source: ~/.hermes/skills/ai-context-config/SKILL.md
+- Target: concepts/ai-context-config.md
+- Skill version: 2.0.0
+- 评分: 100/100 (v1: 79.0)
+- 改动: 新增 frontmatter/5 检查点/5 失败处理/4 实战案例/思考链详解
+- 分享版: /tmp/ai-context-config-share.md
