@@ -404,3 +404,12 @@
 - 评分: 100/100 (v1: 75.9)
 - 改动: 新增 frontmatter/7 检查点/7 失败处理/5 实战案例/练习记录脚本
 - 分享版: /tmp/oral-practice-share.md
+
+## [2026-08-05] sync | short-video-diagnose Skill v2.0 文档入库
+
+- Source: ~/.hermes/skills/short-video-diagnose/SKILL.md
+- Target: concepts/short-video-diagnose.md
+- Skill version: 2.0.0
+- 评分: 100/100 (v1: 68.1)
+- 改动: 新增 frontmatter/6 检查点/5 失败处理/5 实战案例/数据自洽脚本
+- 分享版: /tmp/short-video-diagnose-share.md
