@@ -434,3 +434,15 @@
 - slice-diagnose（诊断）：**高度重叠**，建议优先用 short-video-diagnose
 
 合计入库文档：concepts/slice-{find,break,edit,store,diagnose}.md（5 个）
+
+## [2026-08-05] update | slice-find Skill v2.0 文档更新（完整辅助文件）
+
+新增 5 个辅助文件：
+- references/signal-types.md（5 类信号详解）
+- references/two-scales.md（真实度×有用度详解）
+- assets/quick-reference.md（一页纸速查）
+- templates/case-examples.md（3 个实战案例）
+- templates/fallback-templates.md（Step 4 兜底模板）
+- scripts/signal-classifier.py（信号分类脚本）
+
+脚本功能：自动检测碎片中的 5 类信号 + 识别模糊表述
