@@ -386,3 +386,12 @@
 - 评分: 100/100 (v1: 73.8)
 - 改动: 新增 frontmatter/6 检查点/6 失败处理/4 实战案例/3 步纠偏+运行脚本
 - 分享版: /tmp/fake-map-self-check-share.md
+
+## [2026-08-05] sync | problem-definer Skill v3.0 文档入库
+
+- Source: ~/.hermes/skills/problem-definer/SKILL.md
+- Target: concepts/problem-definer.md
+- Skill version: 3.0.0
+- 评分: 100/100 (v2: 77.1)
+- 改动: 新增 frontmatter/5 检查点/5 失败处理/5 实战案例/2 个脚本
+- 分享版: /tmp/problem-definer-share.md
