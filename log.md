@@ -413,3 +413,24 @@
 - 评分: 100/100 (v1: 68.1)
 - 改动: 新增 frontmatter/6 检查点/5 失败处理/5 实战案例/数据自洽脚本
 - 分享版: /tmp/short-video-diagnose-share.md
+
+## [2026-08-05] batch | 五步切片法体系 · 5 个 Skill 文档入库
+
+新增 5 个 Skill（"五步切片法"完整流水线）：
+
+| # | Skill | 路径 | 评分 | 替代关系 |
+|---|-------|------|------|----------|
+| 1 | slice-find | ~/.hermes/skills/slice-find/ | 100 | 独特（找特质）|
+| 2 | slice-break | ~/.hermes/skills/slice-break/ | 100 | 部分被 oral-alchemy/book-extract 替代 |
+| 3 | slice-edit | ~/.hermes/skills/slice-edit/ | 100 | 高度重叠 oral-alchemy |
+| 4 | slice-store | ~/.hermes/skills/slice-store/ | 100 | 部分被 para-collide 替代 |
+| 5 | slice-diagnose | ~/.hermes/skills/slice-diagnose/ | 100 | 高度重叠 short-video-diagnose |
+
+**重要说明**：每个 Skill 的 frontmatter 都加了"替代关系"段落，标明哪些功能可被现有 Skill 替代。
+- slice-find（找事）：**独特**，没有替代
+- slice-break（拆片）：部分替代
+- slice-edit（试吃装）：**高度重叠**，建议优先用 oral-alchemy
+- slice-store（搭库）：部分替代
+- slice-diagnose（诊断）：**高度重叠**，建议优先用 short-video-diagnose
+
+合计入库文档：concepts/slice-{find,break,edit,store,diagnose}.md（5 个）

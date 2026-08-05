@@ -58,6 +58,11 @@
 ## Concepts
 
 - [[knowledge-creation-framework]] — 知识创建框架 Skill 映射（QClaw → Hermes：避免重复安装，用现有 100 分 Skill）
+- [[slice-find]] — 切片 1/5 找事：个人特质猎人（从碎片挖被请教信号)
+- [[slice-break]] — 切片 2/5 拆片：短视频编剧（6 维各切一件+三帧法开头）
+- [[slice-edit]] — 切片 3/5 试吃装：口播编辑（60s 试吃装+三轮改稿）
+- [[slice-store]] — 切片 4/5 搭库：内容仓库管理员（PARA 6 目录+流动体检）
+- [[slice-diagnose]] — 切片 5/5 诊断：数据医生（数据矛盾+验证预测） — 知识创建框架 Skill 映射（QClaw → Hermes：避免重复安装，用现有 100 分 Skill）
 - [[codex-hermes-collaboration]] — Codex 与 Hermes 在 Obsidian 知识库中的协作边界，避免双 Agent 自动化冲突
 - [[8d-toolkit]]
 - [[para-collide]] — 灵感对撞机 v2（PARA 知识库协作，4 阶段：收件→碰撞→铸卡→归档）
