@@ -485,3 +485,12 @@
 - 评分: 100/100 (v5: 88.3)
 - 改动: 新增 frontmatter/7 检查点/5 失败处理/3 实战案例/mutation-tracker.py 脚本
 - 分享版: /tmp/reflect-share.md
+
+## [2026-08-05] sync | prediction-calibration Skill v2.0 文档入库
+
+- Source: ~/.hermes/skills/prediction-calibration/SKILL.md
+- Target: concepts/prediction-calibration.md
+- Skill version: 1.0 → 2.0.0
+- 评分: 100/100 (v1: 71.8)
+- 改动: 新增 frontmatter/6 检查点/5 失败处理/5 实战案例
+- 分享版: /tmp/prediction-calibration-share.md
