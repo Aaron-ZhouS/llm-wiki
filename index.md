@@ -76,8 +76,15 @@
 - [[cognitive-ghost-wall]] — 认知鬼打墙检测（学习是否在加固旧认知）
 - [[real-story-refiner]] — 真实经历提炼器 v3（合并文案助手，含爆款结构+钩子公式）
 - [[knowledge-money-pipeline]] — 知识变现 L1/L2/L3 模型（一对一升级为一对多）
-- [[huashu-flywheel]] — 胡子飞轮系统（每天 2 小时三段式工作法）
-- [[action-diagnosis]] — 行动诊断（13 种约束识别+路由，编排层）
+| [[huashu-flywheel]] — 胡子飞轮系统（每天 2 小时三段式工作法）
+| [[action-diagnosis]] — 行动诊断（13 种约束识别+路由，编排层）
+
+## 小报童文稿库（2026-08-06 新建）
+
+> 大盛发到小报童（xiaobaotong.com）的长文独立成库，每篇含正文+配套发布包+changelog。
+
+- [[小报童文稿/README]] — 触发词词典 + 命名规范 + frontmatter 标准
+- [[小报童文稿/2026-08-06-可运行的知识-小报童]] — 首篇：4200 字，标题3 选 1 + 视频号标签 3 个已就位
 - [[topical-reading-ai]] — 主题阅读 AI 工作流（5-10 分钟看清话题全貌）
 - [[comment-topic-mining]] — 评论选题挖掘（粘贴 20-50 条评论挖痛点+出选题，完全合规版）
 - [[sync-skill-to-wiki-script]] — Skill 自动入库脚本说明（一键同步 Skill 到知识库）
