@@ -494,3 +494,4 @@
 - 评分: 100/100 (v1: 71.8)
 - 改动: 新增 frontmatter/6 检查点/5 失败处理/5 实战案例
 - 分享版: /tmp/prediction-calibration-share.md
+2026-08-06：新增 Dan Koe 视频学习笔记《The Writing System That Saved My Brain》，依据官方标题、说明与章节整理；因未取得公开字幕，已标记为较低可信度。
