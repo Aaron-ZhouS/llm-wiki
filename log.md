@@ -495,3 +495,10 @@
 - 改动: 新增 frontmatter/6 检查点/5 失败处理/5 实战案例
 - 分享版: /tmp/prediction-calibration-share.md
 2026-08-06：新增 Dan Koe 视频学习笔记《The Writing System That Saved My Brain》，依据官方标题、说明与章节整理；因未取得公开字幕，已标记为较低可信度。
+
+## [2026-08-09] ingest | 每日复盘：刘院长 6000 成交全过程案例
+- 复盘原文: audit/new/daily-review-2026-08-09.md
+- 案例卡片: Knowledge-Cards/daily-review-2026-08-09-case-liu.md
+- 短视频选题: entities/video-topics/daily-review-2026-08-09.md
+- 核心洞察: "不是我在卖，是她看着我在用"——短视频系列铺垫 > 单条爆款，客户买的不是产品，是你这一个月的真实过程
+- 5 个延伸选题: 已入库 video-topics
