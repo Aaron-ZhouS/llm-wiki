@@ -516,3 +516,18 @@
 - 评分: 100/100 (v1: 68.8)
 - 改动: 新增 frontmatter/5 检查点/5 失败处理/5 实战案例/复用率追踪机制
 - 分享版: /tmp/ai-review-share.md
+
+## [2026-08-13] sync | extract-success-method Skill v4.0 大重构
+
+- Source: ~/.hermes/skills/extract-success-method/SKILL.md
+- Target: concepts/extract-success-method.md
+- Skill version: 3.0 → 4.0.0
+- 评分: 100/100
+- 重大变化:
+  - 核心流程 5 步→3 步（找案例/拆条件/封装走）
+  - 新增：准入门禁 3 问
+  - 新增：反向验证 3 问（反例/反向操作/反驳）
+  - 双轨剥离独立成章（正向+反向）
+  - 新增变体 3：提取诊断框架
+  - 5 铁律 + 5 失效条件
+- 辅助文件: SKILL.md/quick-reference.md/case-examples.md（5 案例）已同步
