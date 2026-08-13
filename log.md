@@ -507,3 +507,12 @@
 - README: [[公众号文章/README]] — 触发词词典 + 命名规范 + frontmatter 标准，跟 [[小报童文稿/README]] 同款结构
 - 首篇: [[公众号文章/2026-08-10-100条视频没流量-公众号]] — 3200 字，T-PDCA 自媒体方法论完整拆解
 - index.md 已更新（公众号文章库章节插入小报童库后面作为姐妹库）
+
+## [2026-08-13] sync | ai-review Skill v2.0 文档入库
+
+- Source: ~/.hermes/skills/ai-review/SKILL.md
+- Target: concepts/ai-review.md
+- Skill version: 1.0 → 2.0.0
+- 评分: 100/100 (v1: 68.8)
+- 改动: 新增 frontmatter/5 检查点/5 失败处理/5 实战案例/复用率追踪机制
+- 分享版: /tmp/ai-review-share.md
