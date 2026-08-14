@@ -531,3 +531,9 @@
   - 新增变体 3：提取诊断框架
   - 5 铁律 + 5 失效条件
 - 辅助文件: SKILL.md/quick-reference.md/case-examples.md（5 案例）已同步
+
+## [2026-08-14] ingest | 每日复盘入库
+- 复盘原文: audit/new/daily-review-2026-08-14.md
+- 短视频选题: entities/video-topics/daily-review-2026-08-14.md（如何把 Skill 拍出微信视频号口播视频）
+- 金句卡片: Knowledge-Cards/daily-review-2026-08-14-insight.md（思维导图是最便宜的交付物）
+- 思维导图素材: /home/aaron/.hermes/cache/images/img_6edadef79340.jpg
