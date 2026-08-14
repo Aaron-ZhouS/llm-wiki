@@ -537,3 +537,10 @@
 - 短视频选题: entities/video-topics/daily-review-2026-08-14.md（如何把 Skill 拍出微信视频号口播视频）
 - 金句卡片: Knowledge-Cards/daily-review-2026-08-14-insight.md（思维导图是最便宜的交付物）
 - 思维导图素材: /home/aaron/.hermes/cache/images/img_6edadef79340.jpg
+
+### [2026-08-14] evening-review 追加 | 胡子哥被动收入三步法+大盛卡点对照
+- 来源：胡子哥视频（大盛口述复盘）
+- 复盘原文追加: audit/new/daily-review-2026-08-14.md（第二段）
+- 短视频选题: entities/video-topics/daily-review-2026-08-14-passive-income.md（被动收入三步法+大盛卡点）
+- 金句卡片: Knowledge-Cards/daily-review-2026-08-14-passive-income-insight.md（三句反常识金句+大盛现状对照表）
+- 大盛自检卡点：第一步后段（培训体系未搭建）、第二步进行中、第三步待启动
