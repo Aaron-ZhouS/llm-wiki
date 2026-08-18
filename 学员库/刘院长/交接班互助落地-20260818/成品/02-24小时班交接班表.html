@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<title>24 小时班交接班表</title>
+<style>
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  body {
+    font-family: "PingFang SC", "Microsoft YaHei", "Noto Sans SC", sans-serif;
+    background: #fff;
+    width: 1600px;
+    padding: 24px 32px;
+    color: #2b2b2b;
+  }
+  .header {
+    text-align: center;
+    border-bottom: 4px solid #16a085;
+    padding-bottom: 14px;
+    margin-bottom: 18px;
+  }
+  .header h1 {
+    font-size: 40px;
+    color: #16a085;
+    font-weight: 900;
+  }
+  .header .sub {
+    font-size: 16px;
+    color: #666;
+    margin-top: 4px;
+  }
+  .meta-row {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 12px;
+    margin-bottom: 14px;
+    font-size: 17px;
+  }
+  .meta-row .field {
+    background: #ecf6f2;
+    border: 1px solid #16a085;
+    border-radius: 4px;
+    padding: 8px 12px;
+  }
+  .meta-row .field b { color: #16a085; }
+
+  h2.section {
+    background: #16a085;
+    color: #fff;
+    padding: 8px 14px;
+    border-radius: 4px;
+    font-size: 20px;
+    margin: 16px 0 10px;
+  }
+
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    font-size: 16px;
+    margin-bottom: 8px;
+  }
+  th, td {
+    border: 1px solid #999;
+    padding: 8px 10px;
+    text-align: left;
+    vertical-align: top;
+  }
+  th {
+    background: #ecf6f2;
+    color: #16a085;
+    font-weight: 900;
+    text-align: center;
+  }
+  td.center { text-align: center; width: 80px; }
+  td.check { width: 60px; text-align: center; font-size: 22px; font-weight: 900; }
+  tr:nth-child(even) { background: #fafdfc; }
+
+  .footer {
+    margin-top: 18px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 14px;
+    font-size: 17px;
+  }
+  .sign-box {
+    border: 2px solid #16a085;
+    border-radius: 6px;
+    padding: 12px;
+    min-height: 90px;
+  }
+  .sign-box .label { color: #16a085; font-weight: 900; margin-bottom: 8px; }
+  .sign-box .line { border-bottom: 1px dashed #999; height: 28px; margin-bottom: 6px; }
+
+  .rule {
+    margin-top: 12px;
+    background: #fff8e1;
+    border-left: 6px solid #f1c40f;
+    padding: 10px 14px;
+    font-size: 15px;
+    line-height: 1.6;
+    border-radius: 4px;
+  }
+</style>
+</head>
+<body>
+
+  <div class="header">
+    <h1>📋 24 小时班交接班表</h1>
+    <div class="sub">每日交接班必填 · 完成打 ✓ 未完成打 ✗ · 双方签字方可下班</div>
+  </div>
+
+  <div class="meta-row">
+    <div class="field"><b>日期：</b>____ 年 ____ 月 ____ 日</div>
+    <div class="field"><b>班次：</b>☐ 上 24h ☐ 下 24h</div>
+    <div class="field"><b>交班人：</b>________</div>
+    <div class="field"><b>接班人：</b>________</div>
+    <div class="field"><b>室温/湿度：</b>____℃ / ____%</div>
+  </div>
+
+  <h2 class="section">一、老人护理交接（每位老人逐项确认）</h2>
+  <table>
+    <thead>
+      <tr>
+        <th style="width:60px;">房间</th>
+        <th style="width:80px;">床位</th>
+        <th>姓名</th>
+        <th style="width:70px;">喂药</th>
+        <th style="width:70px;">翻身</th>
+        <th style="width:70px;">排泄</th>
+        <th style="width:70px;">饮水</th>
+        <th style="width:70px;">情绪</th>
+        <th>特殊情况 / 备注</th>
+        <th style="width:60px;">接班确认</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr><td class="center">101</td><td class="center">A</td><td></td><td class="check"></td><td class="check"></td><td class="check"></td><td class="check"></td><td class="check"></td><td></td><td class="check"></td></tr>
+      <tr><td class="center">101</td><td class="center">B</td><td></td><td class="check"></td><td class="check"></td><td class="check"></td><td class="check"></td><td class="check"></td><td></td><td class="check"></td></tr>
+      <tr><td class="center">102</td><td class="center">A</td><td></td><td class="check"></td><td class="check"></td><td class="check"></td><td class="check"></td><td class="check"></td><td></td><td class="check"></td></tr>
+      <tr><td class="center">102</td><td class="center">B</td><td></td><td class="check"></td><td class="check"></td><td class="check"></td><td class="check"></td><td class="check"></td><td></td><td class="check"></td></tr>
+      <tr><td class="center">103</td><td class="center">A</td><td></td><td class="check"></td><td class="check"></td><td class="check"></td><td class="check"></td><td class="check"></td><td></td><td class="check"></td></tr>
+      <tr><td class="center">103</td><td class="center">B</td><td></td><td class="check"></td><td class="check"></td><td class="check"></td><td class="check"></td><td></td><td class="check"></td></tr>
+    </tbody>
+  </table>
+
+  <h2 class="section">二、用药 & 医疗交接</h2>
+  <table>
+    <thead>
+      <tr>
+        <th style="width:80px;">床位</th>
+        <th>姓名</th>
+        <th style="width:140px;">药品名称 / 剂量</th>
+        <th style="width:90px;">已服 / 未服</th>
+        <th>医嘱 / 备注</th>
+        <th style="width:70px;">接班确认</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr><td class="center"></td><td></td><td></td><td class="center"></td><td></td><td class="check"></td></tr>
+      <tr><td class="center"></td><td></td><td></td><td class="center"></td><td></td><td class="check"></td></tr>
+      <tr><td class="center"></td><td></td><td></td><td class="center"></td><td></td><td class="check"></td></tr>
+      <tr><td class="center"></td><td></td><td></td><td class="center"></td><td></td><td class="check"></td></tr>
+    </tbody>
+  </table>
+
+  <h2 class="section">三、未完成事项 / 异常情况交接（必须书面记录）</h2>
+  <table>
+    <thead>
+      <tr>
+        <th style="width:120px;">时间</th>
+        <th>事项描述（含床位、姓名、情况）</th>
+        <th style="width:120px;">处理建议</th>
+        <th style="width:100px;">接班确认</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr><td class="center"></td><td></td><td></td><td class="check"></td></tr>
+      <tr><td class="center"></td><td></td><td></td><td class="check"></td></tr>
+      <tr><td class="center"></td><td></td><td></td><td class="check"></td></tr>
+    </tbody>
+  </table>
+
+  <h2 class="section">四、物资 & 设备交接</h2>
+  <table>
+    <thead>
+      <tr>
+        <th>物资 / 设备</th>
+        <th style="width:90px;">数量</th>
+        <th style="width:90px;">状态</th>
+        <th>备注</th>
+        <th style="width:80px;">接班确认</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr><td>一次性手套 / 口罩</td><td class="center"></td><td class="center">☐ 充足 ☐ 缺</td><td></td><td class="check"></td></tr>
+      <tr><td>尿不湿 / 护理垫</td><td class="center"></td><td class="center">☐ 充足 ☐ 缺</td><td></td><td class="check"></td></tr>
+      <tr><td>血糖仪 / 血压计</td><td class="center"></td><td class="center">☐ 正常 ☐ 异常</td><td></td><td class="check"></td></tr>
+      <tr><td>氧气 / 吸痰器</td><td class="center"></td><td class="center">☐ 正常 ☐ 异常</td><td></td><td class="check"></td></tr>
+      <tr><td>呼叫器 / 对讲设备</td><td class="center"></td><td class="center">☐ 正常 ☐ 异常</td><td></td><td class="check"></td></tr>
+    </tbody>
+  </table>
+
+  <div class="footer">
+    <div class="sign-box">
+      <div class="label">交班人签字 / 时间</div>
+      <div class="line"></div>
+      <div class="line"></div>
+    </div>
+    <div class="sign-box">
+      <div class="label">接班人签字 / 时间</div>
+      <div class="line"></div>
+      <div class="line"></div>
+    </div>
+    <div class="sign-box">
+      <div class="label">主管审核签字</div>
+      <div class="line"></div>
+      <div class="line"></div>
+    </div>
+  </div>
+
+  <div class="rule">
+    ⚠️ <b>交接班铁律：</b>
+    ① 接班人必须逐项检查确认；② 未完成事项必须书面记录、不允许私下口头"私了"；
+    ③ 双方签字后方可离岗；④ 主管每日抽查 ≥ 30%；⑤ 表格保存 ≥ 6 个月。
+  </div>
+
+</body>
+</html>

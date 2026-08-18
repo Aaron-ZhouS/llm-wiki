@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<title>白班交接班表</title>
+<style>
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  body {
+    font-family: "PingFang SC", "Microsoft YaHei", "Noto Sans SC", sans-serif;
+    background: #fff;
+    width: 1600px;
+    padding: 24px 32px;
+    color: #2b2b2b;
+  }
+  .header {
+    text-align: center;
+    border-bottom: 4px solid #2980b9;
+    padding-bottom: 14px;
+    margin-bottom: 18px;
+  }
+  .header h1 {
+    font-size: 40px;
+    color: #2980b9;
+    font-weight: 900;
+  }
+  .header .sub {
+    font-size: 16px;
+    color: #666;
+    margin-top: 4px;
+  }
+  .meta-row {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 12px;
+    margin-bottom: 14px;
+    font-size: 17px;
+  }
+  .meta-row .field {
+    background: #eaf2f8;
+    border: 1px solid #2980b9;
+    border-radius: 4px;
+    padding: 8px 12px;
+  }
+  .meta-row .field b { color: #2980b9; }
+
+  h2.section {
+    background: #2980b9;
+    color: #fff;
+    padding: 8px 14px;
+    border-radius: 4px;
+    font-size: 20px;
+    margin: 16px 0 10px;
+  }
+
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    font-size: 16px;
+    margin-bottom: 8px;
+  }
+  th, td {
+    border: 1px solid #999;
+    padding: 8px 10px;
+    text-align: left;
+    vertical-align: top;
+  }
+  th {
+    background: #eaf2f8;
+    color: #2980b9;
+    font-weight: 900;
+    text-align: center;
+  }
+  td.center { text-align: center; width: 80px; }
+  td.check { width: 60px; text-align: center; font-size: 22px; font-weight: 900; }
+  tr:nth-child(even) { background: #fafdfe; }
+
+  .footer {
+    margin-top: 18px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 14px;
+    font-size: 17px;
+  }
+  .sign-box {
+    border: 2px solid #2980b9;
+    border-radius: 6px;
+    padding: 12px;
+    min-height: 90px;
+  }
+  .sign-box .label { color: #2980b9; font-weight: 900; margin-bottom: 8px; }
+  .sign-box .line { border-bottom: 1px dashed #999; height: 28px; margin-bottom: 6px; }
+
+  .rule {
+    margin-top: 12px;
+    background: #fff8e1;
+    border-left: 6px solid #f1c40f;
+    padding: 10px 14px;
+    font-size: 15px;
+    line-height: 1.6;
+    border-radius: 4px;
+  }
+</style>
+</head>
+<body>
+
+  <div class="header">
+    <h1>🧹 白班交接班表</h1>
+    <div class="sub">每日交接班必填 · 完成打 ✓ 未完成打 ✗ · 双方签字方可下班</div>
+  </div>
+
+  <div class="meta-row">
+    <div class="field"><b>日期：</b>____ 年 ____ 月 ____ 日</div>
+    <div class="field"><b>班次：</b>☐ 上午 ☐ 下午</div>
+    <div class="field"><b>交班人：</b>________</div>
+    <div class="field"><b>接班人：</b>________</div>
+    <div class="field"><b>天气：</b>_____</div>
+  </div>
+
+  <h2 class="section">一、老人房间卫生检查（逐房逐项）</h2>
+  <table>
+    <thead>
+      <tr>
+        <th style="width:60px;">房间</th>
+        <th>小餐桌</th>
+        <th>衣柜</th>
+        <th>老人衣物</th>
+        <th>床单 / 被套</th>
+        <th>卫生间</th>
+        <th>垃圾桶</th>
+        <th>地面 / 墙边</th>
+        <th style="width:80px;">接班确认</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr><td class="center">101</td><td class="check"></td><td class="check"></td><td class="check"></td><td class="check"></td><td class="check"></td><td class="check"></td><td class="check"></td><td class="check"></td></tr>
+      <tr><td class="center">102</td><td class="check"></td><td class="check"></td><td class="check"></td><td class="check"></td><td class="check"></td><td class="check"></td><td class="check"></td><td class="check"></td></tr>
+      <tr><td class="center">103</td><td class="check"></td><td class="check"></td><td class="check"></td><td class="check"></td><td class="check"></td><td class="check"></td><td class="check"></td><td class="check"></td></tr>
+      <tr><td class="center">104</td><td class="check"></td><td class="check"></td><td class="check"></td><td class="check"></td><td class="check"></td><td class="check"></td><td class="check"></td><td class="check"></td></tr>
+      <tr><td class="center">105</td><td class="check"></td><td class="check"></td><td class="check"></td><td class="check"></td><td class="check"></td><td class="check"></td><td class="check"></td><td class="check"></td></tr>
+      <tr><td class="center">106</td><td class="check"></td><td class="check"></td><td class="check"></td><td class="check"></td><td class="check"></td><td class="check"></td><td class="check"></td><td class="check"></td></tr>
+    </tbody>
+  </table>
+
+  <h2 class="section">二、公共区域卫生检查</h2>
+  <table>
+    <thead>
+      <tr>
+        <th>区域</th>
+        <th>地面</th>
+        <th>扶手</th>
+        <th>洗手台</th>
+        <th>镜子</th>
+        <th>马桶 / 蹲便</th>
+        <th>垃圾桶</th>
+        <th>消毒记录</th>
+        <th style="width:80px;">接班确认</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr><td>走廊 1</td><td class="check"></td><td class="check"></td><td>—</td><td>—</td><td>—</td><td class="check"></td><td class="check"></td><td class="check"></td></tr>
+      <tr><td>走廊 2</td><td class="check"></td><td class="check"></td><td>—</td><td>—</td><td>—</td><td class="check"></td><td class="check"></td><td class="check"></td></tr>
+      <tr><td>公共卫生间 1</td><td class="check"></td><td class="check"></td><td class="check"></td><td class="check"></td><td class="check"></td><td class="check"></td><td class="check"></td><td class="check"></td></tr>
+      <tr><td>公共卫生间 2</td><td class="check"></td><td class="check"></td><td class="check"></td><td class="check"></td><td class="check"></td><td class="check"></td><td class="check"></td><td class="check"></td></tr>
+      <tr><td>餐厅 / 活动室</td><td class="check"></td><td class="check"></td><td class="check"></td><td class="check"></td><td>—</td><td class="check"></td><td class="check"></td><td class="check"></td></tr>
+    </tbody>
+  </table>
+
+  <h2 class="section">三、消毒 & 物资交接</h2>
+  <table>
+    <thead>
+      <tr>
+        <th>项目</th>
+        <th style="width:90px;">完成时间</th>
+        <th>执行人</th>
+        <th>检查情况</th>
+        <th style="width:80px;">接班确认</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr><td>公共区域消毒（84 消毒液 / 酒精）</td><td class="center"></td><td></td><td></td><td class="check"></td></tr>
+      <tr><td>卫生间消毒</td><td class="center"></td><td></td><td></td><td class="check"></td></tr>
+      <tr><td>餐饮具消毒</td><td class="center"></td><td></td><td></td><td class="check"></td></tr>
+      <tr><td>洗衣机 / 烘干机（床单、被套）</td><td class="center"></td><td></td><td></td><td class="check"></td></tr>
+      <tr><td>清洁剂 / 消毒水库存</td><td class="center"></td><td></td><td>☐ 充足 ☐ 缺</td><td class="check"></td></tr>
+      <tr><td>垃圾袋 / 一次性用品</td><td class="center"></td><td></td><td>☐ 充足 ☐ 缺</td><td class="check"></td></tr>
+    </tbody>
+  </table>
+
+  <h2 class="section">四、未完成事项 / 异常情况交接（必须书面记录）</h2>
+  <table>
+    <thead>
+      <tr>
+        <th style="width:120px;">时间</th>
+        <th>事项描述</th>
+        <th style="width:120px;">处理建议</th>
+        <th style="width:100px;">接班确认</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr><td class="center"></td><td></td><td></td><td class="check"></td></tr>
+      <tr><td class="center"></td><td></td><td></td><td class="check"></td></tr>
+      <tr><td class="center"></td><td></td><td></td><td class="check"></td></tr>
+    </tbody>
+  </table>
+
+  <div class="footer">
+    <div class="sign-box">
+      <div class="label">交班人签字 / 时间</div>
+      <div class="line"></div>
+      <div class="line"></div>
+    </div>
+    <div class="sign-box">
+      <div class="label">接班人签字 / 时间</div>
+      <div class="line"></div>
+      <div class="line"></div>
+    </div>
+    <div class="sign-box">
+      <div class="label">主管审核签字</div>
+      <div class="line"></div>
+      <div class="line"></div>
+    </div>
+  </div>
+
+  <div class="rule">
+    ⚠️ <b>交接班铁律：</b>
+    ① 接班人逐房逐项检查确认；② 未完成事项必须书面记录，不允许口头"私了"；
+    ③ 双方签字后方可离岗；④ 主管每日抽查 ≥ 30%；⑤ 表格保存 ≥ 6 个月。
+  </div>
+
+</body>
+</html>
