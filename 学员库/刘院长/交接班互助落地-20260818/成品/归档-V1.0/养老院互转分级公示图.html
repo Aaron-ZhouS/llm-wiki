@@ -1,0 +1,283 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<title>养老院互转分级公示图</title>
+<style>
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  body {
+    font-family: "PingFang SC", "Microsoft YaHei", "Noto Sans SC", sans-serif;
+    background: #f7f5f1;
+    width: 1600px;
+    padding: 28px 36px;
+    color: #2b2b2b;
+  }
+  .header {
+    border-bottom: 4px solid #2b2b2b;
+    padding-bottom: 14px;
+    margin-bottom: 18px;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+  }
+  .header h1 {
+    font-size: 42px;
+    color: #2b2b2b;
+    font-weight: 900;
+    letter-spacing: 2px;
+  }
+  .header .meta {
+    font-size: 16px;
+    color: #555;
+    text-align: right;
+    line-height: 1.7;
+  }
+  .header .meta b { color: #2b2b2b; }
+
+  .legend {
+    display: flex;
+    gap: 28px;
+    margin-bottom: 18px;
+    font-size: 18px;
+    font-weight: 700;
+    background: #fff;
+    padding: 12px 18px;
+    border-radius: 6px;
+    border: 1px solid #ddd;
+  }
+  .legend-item { display: flex; align-items: center; gap: 8px; }
+  .dot { width: 26px; height: 26px; border-radius: 4px; }
+  .dot.red { background: #c0392b; }
+  .dot.yellow { background: #f1c40f; }
+  .dot.blue { background: #2980b9; }
+
+  .grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+  }
+  .column-title {
+    font-size: 26px;
+    font-weight: 900;
+    text-align: center;
+    padding: 12px;
+    border-radius: 6px;
+    color: #fff;
+    margin-bottom: 12px;
+    background: #2b2b2b;
+  }
+  .column-title small { font-size: 15px; font-weight: 600; opacity: 0.9; display: block; margin-top: 2px; }
+
+  .block {
+    border-radius: 6px;
+    padding: 12px 16px;
+    margin-bottom: 10px;
+    color: #fff;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.12);
+    position: relative;
+  }
+  .block.red { background: #c0392b; }
+  .block.yellow { background: #f1c40f; color: #2c2c2c; }
+  .block.blue { background: #2980b9; }
+  .block .num {
+    position: absolute;
+    top: 8px;
+    right: 12px;
+    font-size: 16px;
+    font-weight: 900;
+    background: rgba(255,255,255,0.3);
+    padding: 2px 8px;
+    border-radius: 10px;
+  }
+  .block.yellow .num { background: rgba(0,0,0,0.15); color: #2c2c2c; }
+  .block .tag {
+    display: inline-block;
+    font-size: 13px;
+    padding: 2px 8px;
+    border-radius: 4px;
+    background: rgba(255,255,255,0.25);
+    margin-right: 6px;
+    font-weight: 700;
+  }
+  .block.yellow .tag { background: rgba(0,0,0,0.15); color: #2c2c2c; }
+  .block h3 {
+    font-size: 19px;
+    margin: 5px 0 6px;
+    font-weight: 900;
+  }
+  .block p {
+    font-size: 15px;
+    line-height: 1.5;
+  }
+
+  .footer-rule {
+    margin-top: 18px;
+    background: #2b2b2b;
+    color: #fff;
+    padding: 14px 20px;
+    border-radius: 6px;
+    font-size: 15px;
+    line-height: 1.7;
+  }
+  .footer-rule b { color: #f1c40f; }
+  .footer-rule .col3 { display: grid; grid-template-columns: 1fr 1fr 1fr; gap: 16px; margin-top: 8px; }
+
+  .rule-rules {
+    margin-top: 12px;
+    background: #fff;
+    border: 1px solid #ddd;
+    padding: 12px 18px;
+    border-radius: 6px;
+    font-size: 14px;
+    line-height: 1.7;
+    color: #555;
+  }
+  .rule-rules b { color: #c0392b; }
+  .sign-row {
+    margin-top: 10px;
+    display: flex;
+    gap: 16px;
+    font-size: 14px;
+    color: #333;
+  }
+  .sign-row .field { flex: 1; border: 1px dashed #999; padding: 6px 10px; border-radius: 4px; }
+</style>
+</head>
+<body>
+  <div class="header">
+    <h1>🚨 养老院互转分级公示图</h1>
+    <div class="meta">
+      <b>编制单位：</b>__________ 养老院<br>
+      <b>编制日期：</b>2026 年 8 月 18 日 · 生效日期：即时<br>
+      <b>版本号：</b>V1.0 · 张贴位置：护理员工作区 / 交接班墙
+    </div>
+  </div>
+
+  <div class="legend">
+    <div class="legend-item"><span class="dot red"></span>🔴 红色 = 非常重要（随叫随到，无条件立即到场）</div>
+    <div class="legend-item"><span class="dot yellow"></span>🟡 黄色 = 重要（5 分钟内必到岗）</div>
+    <div class="legend-item"><span class="dot blue"></span>🔵 蓝色 = 一般（手头事毕后必做）</div>
+  </div>
+
+  <div class="grid">
+    <!-- 左列：白班帮 24 小时岗 -->
+    <div>
+      <div class="column-title">⬇️ 白班 ➡️ 24 小时岗 <small>（白班必须协助，含日期标签：L-红/黄/蓝）</small></div>
+
+      <div class="block red">
+        <span class="num">L-1</span>
+        <span class="tag">🔴 非常重要</span>
+        <h3>老人存在安全隐患</h3>
+        <p>老人摔伤、吃错药物剂量、阿尔茨海默症老人情绪失控 / 突发异常。放下手中事立即赶赴现场。</p>
+      </div>
+
+      <div class="block red">
+        <span class="num">L-2</span>
+        <span class="tag">🔴 非常重要</span>
+        <h3>家属情绪失控 / 投诉</h3>
+        <p>家属到访对服务不满情绪失控，白班必须共同协助处理，不得以"不归我管"推诿。</p>
+      </div>
+
+      <div class="block red">
+        <span class="num">L-3</span>
+        <span class="tag">🔴 非常重要</span>
+        <h3>24 小时岗正在护理其他老人</h3>
+        <p>24 小时岗为一位老人服务时，其他老人呼叫需求由白班立即补位响应，不让老人等待。</p>
+      </div>
+
+      <div class="block yellow">
+        <span class="num">L-4</span>
+        <span class="tag">🟡 重要</span>
+        <h3>抱轮椅 / 洗澡必须两人配合</h3>
+        <p>单人女护理员强行操作易腰伤。白班 5 分钟内赶到搭手。</p>
+      </div>
+
+      <div class="block yellow">
+        <span class="num">L-5</span>
+        <span class="tag">🟡 重要</span>
+        <h3>24 小时岗护理员身体不适</h3>
+        <p>24 小时岗护理员感冒、发烧等身体不适时，白班主动分担喂饭、翻身等基础护理。</p>
+      </div>
+
+      <div class="block blue">
+        <span class="num">L-6</span>
+        <span class="tag">🔵 一般</span>
+        <h3>协助老人衣物简单归位</h3>
+        <p>路过老人床位时，看到衣物掉落或衣柜敞开，主动顺手归位（1-2 分钟）。</p>
+      </div>
+    </div>
+
+    <!-- 右列：24 小时岗帮白班 -->
+    <div>
+      <div class="column-title">⬇️ 24 小时岗 ➡️ 白班 <small>（24 小时岗必须协助，含日期标签：R-红/黄/蓝）</small></div>
+
+      <div class="block red">
+        <span class="num">R-1</span>
+        <span class="tag">🔴 非常重要</span>
+        <h3>白班呼叫需要协助</h3>
+        <p>24 小时岗在有空时必须立即补位；没空时 <b>必须明确告知等待时间</b>（口头 + 点头示意）。</p>
+      </div>
+
+      <div class="block red">
+        <span class="num">R-2</span>
+        <span class="tag">🔴 非常重要</span>
+        <h3>老人突发健康异常</h3>
+        <p>喂饭 / 翻身过程中老人突发呛咳、晕厥、跌倒等，24 小时岗立即响应，同时呼叫白班协助联系医护。</p>
+      </div>
+
+      <div class="block yellow">
+        <span class="num">R-3</span>
+        <span class="tag">🟡 重要</span>
+        <h3>协助公共区域简单清洁</h3>
+        <p>走廊、洗手台、扶手出现明显污渍时，5 分钟内顺手清理，避免堆积。</p>
+      </div>
+
+      <div class="block blue">
+        <span class="num">R-4</span>
+        <span class="tag">🔵 一般</span>
+        <h3>顺手擦净老人小餐桌</h3>
+        <p>喂完饭后顺手擦干净小餐桌（1-2 分钟），大幅减少白班后续工作量。</p>
+      </div>
+
+      <div class="block blue">
+        <span class="num">R-5</span>
+        <span class="tag">🔵 一般</span>
+        <h3>随手更换垃圾袋</h3>
+        <p>垃圾桶满了随手系好垃圾袋并换新袋，避免垃圾溢出增加白班工作量。</p>
+      </div>
+
+      <div class="block blue">
+        <span class="num">R-6</span>
+        <span class="tag">🔵 一般</span>
+        <h3>协助整理老人衣物</h3>
+        <p>为老人整理衣物时，发现衣柜明显凌乱、需折叠收纳的，主动协助归位。</p>
+      </div>
+    </div>
+  </div>
+
+  <div class="footer-rule">
+    <b>⚠️ 三色响应铁律（不分岗、不分人、不分理由）：</b>
+    <div class="col3">
+      <div>🔴 <b>红色</b>：接到呼叫立即放下手中事到场，无前置条件</div>
+      <div>🟡 <b>黄色</b>：5 分钟内到场</div>
+      <div>🔵 <b>蓝色</b>：手头事毕后必做，不允许遗忘</div>
+    </div>
+    <div class="col3" style="margin-top:10px;">
+      <div>🔴 未响应 → 当月绩效扣 <b>100 元</b></div>
+      <div>🟡 未响应 → 绩效扣 <b>50 元</b></div>
+      <div>🔵 连续 3 次未做 → 扣 <b>30 元</b></div>
+    </div>
+    <div style="margin-top:8px;">🎯 表现优秀者由一线主管评定奖励，奖金从绩效预留池中支出。规则目的是让员工形成条件反射式的协作肌肉记忆。</div>
+  </div>
+
+  <div class="rule-rules">
+    <b>申诉 / 反馈：</b>员工对扣分有异议，可在 3 个工作日内向院长书面申诉，院长 24 小时内答复。
+    <b>规则更新：</b>本图规则 V1.0 自 2026 年 8 月 18 日起执行，修订需经院长签字盖章后公示新版。
+    <div class="sign-row">
+      <div class="field"><b>编制人：</b>__________ &nbsp;&nbsp; 日期：__________</div>
+      <div class="field"><b>审核人（院长）：</b>__________ &nbsp;&nbsp; 日期：__________</div>
+      <div class="field"><b>公示生效：</b>__________ &nbsp;&nbsp; 张贴日期：__________</div>
+    </div>
+  </div>
+</body>
+</html>
