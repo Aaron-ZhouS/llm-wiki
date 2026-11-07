@@ -1,8 +1,8 @@
 ---
 name: nihaixia
-description: "倪海厦经方中医 AI — 六经辨证 + 经方选药 + 倪师口吻。触发词：倪海厦、海厦视角、倪师、经方思维、倪海厦会怎么看、中医辨证。知识库覆盖：伤寒论129条全 + 金匮23篇 + 黄帝内经72篇 + 神农本草经374种 + 针灸 + 天纪 + 1257例结构化医案 + 243例分类叙事医案 + 梁冬对话 + 8个六经诊断公式 + 脉舌速查 + 七步走思维模式。"
-version: 2026.8.6
-author: jangviktor-web (原始蒸馏) · 二次开发致谢 huoyalong/nihaisha-skill · 安装至 Hermes
+description: "倪海厦经方中医 AI — 六经辨证 + 经方选药 + 倪师口吻。触发词：倪海厦、海厦视角、倪师、经方思维、倪海厦会怎么看、中医辨证。知识库覆盖：伤寒论129条全 + 金匮23篇 + 黄帝内经72篇 + 神农本草经374种 + 针灸 + 天纪 + 1257例结构化医案 + 243例叙事医案 + 梁冬对话 + 8个六经诊断公式 + 脉舌速查 + 七步走思维模式。"
+version: 2026.8.6-slim
+author: jangviktor-web (原始蒸馏) · 二次开发致谢 huoyalong/nihaisha-skill · 安装至 Hermes · 2026-11-07 瘦身
 license: MulanPSL-2.0
 metadata:
   hermes:
@@ -18,7 +18,9 @@ skill_type: 知识库
 
 # 倪海厦经方中医（索引版）
 
-> **说明**：本文件是 `nihaixia` Skill 的**索引版**。完整 SKILL.md 有 **132KB / 1614 行**，超出 vault 单文件惯例（最大 23KB），故此处只存 frontmatter + 结构导航 + 关键约束。
+> **说明**：本文件是 `nihaixia` Skill 的**索引版**。完整 SKILL.md 原为 **132KB / 1614 行**，超出 vault 单文件惯例（最大 23KB），故此处只存 frontmatter + 结构导航 + 关键约束。
+>
+> **2026-11-07 瘦身**：SKILL.md 从 63,591 字符瘦到 **28,144（-55.7%）**，规则一条没少，低频大块迁到 `references/`。
 >
 > **完整原文位置**：`~/.hermes/skills/nihaixia/SKILL.md`
 > **运行时读取**：Hermes 通过 `skill_view(name='nihaixia')` 加载完整内容，本文件仅供人查阅。
@@ -35,7 +37,7 @@ skill_type: 知识库
 
 ```
 ~/.hermes/skills/nihaixia/
-├── SKILL.md              # 132KB / 1614 行 —— 主文件（角色规则 + 速查 + 工作流）
+├── SKILL.md              # 28KB / 769 行（瘦身版）—— 主文件（角色规则 + 速查 + 工作流）
 ├── expression_style.md   # 13KB —— 倪师口述表达 DNA
 ├── distilled_cases.md    # 135KB —— 蒸馏医案（cases 编号 1-243 对应）
 ├── modules/              # 14 个模块
@@ -57,10 +59,25 @@ skill_type: 知识库
 │   ├── 00_merged_table.md      # 1257 例全量结构化表（12 列，优先查这个）
 │   └── 01-06_*.md              # 按病种分类（癌症/心脑血管/代谢/免疫/神经/其他）
 └── references/
-    ├── distilled/       # 蒸馏速查（八纲→六经→方 / 针灸 / 剂量表）
+    ├── keyword-index.md               # 🆕 200+ 关键词 → 搜索位置
+    ├── navigation-tables.md           # 🆕 金匮23篇+内经72篇+医案1257例定位表
+    ├── output-format-rules.md         # 🆕 14b 折中版 + 14c 条文卡片完整规范
+    ├── dose-conversion-full.md        # 🆕 三套度量衡完整换算表
+    ├── expression-dna-full.md         # 🆕 表达 DNA 完整规则
+    ├── distilled/
+    │   ├── 01-six-meridian-formulas.md    # 六经辨证（966行）
+    │   ├── 02-acupuncture-quick-ref.md    # 子午流注速查（621行）
+    │   ├── 03-clinical-experience.md      # 感冒六方 + 病机十九条
+    │   ├── 04-acupuncture-highlights.md   # 针灸全集（1761行）
+    │   ├── 05-clinical-dose-quickref.md   # 33方口述剂量（出卡第一查）
+    │   ├── 06-clinical-dose-c99.md        # C类96方换算兜底（出卡第二查）
+    │   ├── 07-six-meridian-diagnosis-formulas.md # 🆕 八公式完整判据（458行）
+    │   └── 08-card-dose-rules.md          # 🆕 卡片剂量生成流程细则
     ├── research/        # 考证资料
     └── audit/           # 校对记录
 ```
+
+> 🆕 = 2026-11-07 瘦身时从 SKILL.md 迁出。**规则一条没少**，只是把低频大块搬走，按需加载。
 
 ---
 
