@@ -156,3 +156,23 @@ related:                    # 双向链
   - 新课程直接归档，README 不用每次改
   - 提炼出的概念卡必须 `sources` 指回具体实录页
   - 金句索引每月清一次（去重 + 归并）
+
+---
+
+## 🤖 自动化流水线（Skill）
+
+本库的归档 + 提炼 + 同步已固化为 Skill：**`jiang-huashu-lib`**
+
+| 用户说 | 触发 |
+|--------|------|
+| "放姜胡说知识库" / "这是胡子哥的课" / "归档姜胡说课程" | 完整 5 步流水线 |
+| "提取胡子哥的方法论" | 只跑 Step ③ 提炼方法论卡 |
+| "胡子哥金句" | 只跑 Step ④ 金句入库 |
+
+**手工跑脚本**（机械部分自动化）：
+```bash
+python3 ~/.hermes/skills/knowledge/jiang-huashu-lib/scripts/archive_course.py <源MD> --theme "主题关键词"
+```
+
+Skill 位置：`~/.hermes/skills/knowledge/jiang-huashu-lib/`
+文档副本：[[jiang-huashu-lib]]

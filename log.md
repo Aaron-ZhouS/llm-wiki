@@ -593,3 +593,10 @@
 - 补图: 姜胡说知识库/线下答疑/图片和附件/ab09143b20b50ac2bbff877b16c5b40d.jpg（4096×3072，学员近景合影）
 - 实录 frontmatter 更新: images_missing: 2 → images_total: 2 / images_resolved: 2 / images_path: 图片和附件/
 - 图片和附件/README.md 更新: 状态改为「已补齐」+ 补图内容说明
+
+### [2026-11-11] skill | 新建 jiang-huashu-lib Skill（姜胡说课程入库流水线）
+- Skill 路径: ~/.hermes/skills/knowledge/jiang-huashu-lib/
+- 构成: SKILL.md + templates/concept-card-template.md + templates/quote-categories.md + scripts/archive_course.py
+- 功能: 上传课程 MD → 自动归档 → 提炼 3-8 张方法论卡 → 金句入库 → 同步 index/log
+- 实测: 2 份实录验证（线下答疑 / 3 天闭门会），日期识别 + 章节统计 + 图片补齐 + 索引同步全部通过
+- 已入 concepts/jiang-huashu-lib.md
